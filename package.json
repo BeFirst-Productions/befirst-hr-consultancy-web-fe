@@ -1,7 +1,7 @@
 {
   "name": "befirst-hr-consultancy",
   "version": "0.1.0",
-  "homepage": "http://consultar-react.wpocean.com",
+  "homepage": "http://befirsthr.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -38,7 +38,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-     "build:hostinger": "REACT_APP_API_BASE_URL=https://befirst-hr-consultancy-web-be.onrender.com/api/v1 REACT_APP_WHATSAPP_NUMBER=919400905954 react-scripts build",
+    "build:hostinger": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
