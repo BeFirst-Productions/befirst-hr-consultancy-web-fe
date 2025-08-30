@@ -12,7 +12,7 @@ const PrivacyPolicyPage = () => {
       <PageTitle pageTitle={'Privacy Policy'} pagesub={'Privacy Policy'} />
       <PrivacyPolicy/>
       <Footer />
-      <Scrollbar />
+      {/* <Scrollbar /> */}
     </>
   )
 }

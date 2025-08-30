@@ -8,13 +8,13 @@ import Scrollbar from '../../components/scrollbar'
 
 const BlogDetailsFull =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Articles'} pagesub={'Articles'}/> 
             <BlogSingle blLeft={'d-none'} blRight={'col-lg-10 offset-lg-1'}/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default BlogDetailsFull;

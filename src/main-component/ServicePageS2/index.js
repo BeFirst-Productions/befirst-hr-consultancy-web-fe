@@ -8,13 +8,13 @@ import Scrollbar from '../../components/scrollbar'
 
 const ServicePageS2 =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Services'} pagesub={'Services'}/> 
             <Services2 srvClass={'wpo-service-section-s2'}/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default ServicePageS2;

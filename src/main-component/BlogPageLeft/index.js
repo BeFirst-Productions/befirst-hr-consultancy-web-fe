@@ -8,13 +8,13 @@ import Scrollbar from '../../components/scrollbar'
 
 const BlogPageLeft =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Articles'} pagesub={'Articles'}/> 
             <BlogList blLeft={'order-lg-1'} blRight={'order-lg-2'}/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default BlogPageLeft;

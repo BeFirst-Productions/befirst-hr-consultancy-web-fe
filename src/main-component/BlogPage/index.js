@@ -18,7 +18,7 @@ const BlogPage =() => {
             <PageTitle pageTitle={'Articles'} pagesub={'Articles'}/> 
             <BlogList/>
             <Footer/>
-            <Scrollbar/>
+            {/* <Scrollbar/> */}
         </>
     )
 };

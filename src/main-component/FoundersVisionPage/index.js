@@ -12,7 +12,7 @@ const FoundersVisionPage = () => {
 <PageTitle pageTitle={"Founder's Vision"} pagesub={"Founder's Vision"} />
             <FoundersVision />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     )
 }

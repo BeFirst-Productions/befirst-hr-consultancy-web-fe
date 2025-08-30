@@ -12,7 +12,7 @@ const TermsOfUsePage = () => {
       <PageTitle pageTitle={'Terms of Use'} pagesub={'Terms of Use'} />
       <TermsOfUse/>
       <Footer />
-      <Scrollbar />
+      {/* <Scrollbar /> */}
     </>
   )
 }

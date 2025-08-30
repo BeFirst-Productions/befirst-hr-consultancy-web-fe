@@ -20,7 +20,7 @@ const ServiceSinglePage2 = () => {
             <PageTitle pageTitle={'Human Capital Development'} pagesub={'Services'} serviceTitle={'Human Capital Development'} />
             <ServiceSingleSection2  />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     );
 };

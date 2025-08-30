@@ -20,7 +20,7 @@ const ServiceSinglePage5 = () => {
             <PageTitle pageTitle={'Recruitment Services'} pagesub={'Services'} serviceTitle={'Recruitment Services'} />
             <ServiceSingleSection5 />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     );
 };

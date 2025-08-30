@@ -23,7 +23,7 @@ const AboutPage =() => {
             {/* <Services2 srvClass={'wpo-service-section-s3'}/> */}
             {/* <Pricing/> */}
             <Footer/>
-            <Scrollbar/>
+            {/* <Scrollbar/> */}
         </>
     )
 };

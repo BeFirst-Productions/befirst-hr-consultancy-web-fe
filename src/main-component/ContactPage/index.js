@@ -19,7 +19,7 @@ const ContactPage = () => {
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact Us'} />
             <Contactpage />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     )
 };

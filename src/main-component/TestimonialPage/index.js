@@ -9,13 +9,13 @@ import Testimonial from '../../components/Testimonial'
 
 const TestimonialPage =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Testimonilal'} pagesub={'Testimonilal'}/> 
             <Testimonial tClass="style-2"/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default TestimonialPage;

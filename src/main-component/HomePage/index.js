@@ -29,7 +29,7 @@ const HomePage =() => {
             <Support/>
             <BlogSection/>
             <Footer/>
-            <Scrollbar/>
+            {/* <Scrollbar/> */}
         </Fragment>
     )
 };

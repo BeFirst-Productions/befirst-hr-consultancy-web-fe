@@ -45,7 +45,7 @@ const ServiceSinglePage1 = () => {
             <PageTitle pageTitle={'HR Consulting Services'} pagesub={'Services'} serviceTitle={'HR Consulting Services'} />
             <ServiceSingleSection1  />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     );
 };

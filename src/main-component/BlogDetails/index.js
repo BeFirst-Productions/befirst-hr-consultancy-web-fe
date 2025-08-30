@@ -8,13 +8,13 @@ import Scrollbar from '../../components/scrollbar'
 
 const BlogDetails =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Articles'} pagesub1={'Articles'} pagesub2={'Article Details'}/> 
             <BlogSingle/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default BlogDetails;

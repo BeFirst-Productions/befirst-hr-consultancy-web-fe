@@ -9,13 +9,13 @@ import Projects from '../../components/Projects'
 
 const ProjectPageS2 =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Projects'} pagesub={'Projects'}/> 
             <Projects/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default ProjectPageS2;

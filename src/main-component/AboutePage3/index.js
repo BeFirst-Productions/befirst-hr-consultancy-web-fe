@@ -16,7 +16,7 @@ const VisionAndMission = () => {
             <CoreValues />
             <FunFact fnClass={'section-padding'} />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     )
 }

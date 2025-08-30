@@ -21,7 +21,7 @@ const ServiceSinglePage4 = () => {
             <PageTitle pageTitle={'Payroll Setup & Training'} pagesub={'Services'} serviceTitle={'Payroll Setup & Training'} />
             <ServiceSingleSection4  />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     );
 };

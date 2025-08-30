@@ -9,13 +9,13 @@ import Pricing from '../../components/Pricing'
 
 const PricingPage =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Pricing'} pagesub={'Pricing'}/> 
             <Pricing/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default PricingPage;

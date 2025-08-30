@@ -20,7 +20,7 @@ const CareersPage = () => {
             <PageTitle pageTitle={'Careers'} pagesub={'Careers'} />
             <Careers />
             <Footer />
-            <Scrollbar />
+            {/* <Scrollbar /> */}
         </>
     )
 };

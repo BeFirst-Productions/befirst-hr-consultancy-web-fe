@@ -13,7 +13,7 @@ const ServicePage =() => {
             <PageTitle pageTitle={'Services'} pagesub={'Services'}/> 
             <Services/>
             <Footer/>
-            <Scrollbar/>
+            {/* <Scrollbar/> */}
         </>
     )
 };

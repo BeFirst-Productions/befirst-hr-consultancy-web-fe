@@ -7,13 +7,13 @@ import Scrollbar from '../../components/scrollbar'
 
 const ProjectSinglePage =() => {
     return(
-        <Fragment>
+        <>
             <Navbar2/>
             <PageTitle pageTitle={'Project Single'} pagesub={'Project'}/> 
             <ProjectSingle/>
             <Footer/>
-            <Scrollbar/>
-        </Fragment>
+            {/* <Scrollbar/> */}
+        </>
     )
 };
 export default ProjectSinglePage;
