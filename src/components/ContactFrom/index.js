@@ -81,7 +81,9 @@ class ContactForm extends Component {
       console.log("Database save response:", response);
 
       // If database save is successful, proceed with WhatsApp
-      const whatsappNumber = "919400905954";
+   const whatsappNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "919400905954";
+console.log(whatsappNumber);
+
       const message = formatWhatsAppMessage({
         name,
         lastname,

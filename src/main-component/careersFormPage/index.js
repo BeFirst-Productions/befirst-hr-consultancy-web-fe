@@ -105,7 +105,8 @@ ${formData.references}
 
     // Generate WhatsApp message
     const whatsappMessage = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/919400905954?text=${whatsappMessage}`;
+        const whatsappNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "919400905954";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
