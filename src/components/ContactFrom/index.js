@@ -69,7 +69,8 @@ class ContactForm extends Component {
     const { name, lastname, email, subject, notes } = this.state;
 
     try {
-      await axiosInstance.post("/enquiry", {
+      // First, save to database
+      const response = await axiosInstance.post("/enquiry", {
         name,
         lastname,
         email,
@@ -77,6 +78,9 @@ class ContactForm extends Component {
         notes,
       });
 
+      console.log("Database save response:", response);
+
+      // If database save is successful, proceed with WhatsApp
       const whatsappNumber = "919400905954";
       const message = formatWhatsAppMessage({
         name,
@@ -85,11 +89,16 @@ class ContactForm extends Component {
         subject,
         notes,
       });
-      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+      
+   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+      
+      // Open WhatsApp in new tab
       window.open(whatsappUrl, "_blank");
 
-      toast.success("Enquiry sent successfully!");
+      // Show success message
+      toast.success("Enquiry sent successfully! Email notification has been sent.");
 
+      // Reset form
       this.setState({
         name: "",
         email: "",
@@ -100,9 +109,28 @@ class ContactForm extends Component {
         error: {},
         isSubmitting: false,
       });
+
     } catch (error) {
-      console.error(error);
-      toast.error("Failed to send enquiry. Please try again.");
+      console.error("Form submission error:", error);
+      
+      // More detailed error handling
+      let errorMessage = "Failed to send enquiry. Please try again.";
+      
+      if (error.response) {
+        // Server responded with error status
+        console.error("Server error:", error.response.data);
+        errorMessage = error.response.data.message || errorMessage;
+      } else if (error.request) {
+        // Request was made but no response received
+        console.error("Network error:", error.request);
+        errorMessage = "Network error. Please check your connection and try again.";
+      } else {
+        // Something else happened
+        console.error("Error:", error.message);
+        errorMessage = error.message || errorMessage;
+      }
+      
+      toast.error(errorMessage);
       this.setState({ isSubmitting: false });
     }
   };
@@ -123,6 +151,7 @@ class ContactForm extends Component {
                 name="name"
                 placeholder="Name"
                 className={error.name ? "error-input" : ""}
+                disabled={isSubmitting}
               />
               {error.name && <p className="error-message">{error.name}</p>}
             </div>
@@ -136,6 +165,7 @@ class ContactForm extends Component {
                 name="lastname"
                 placeholder="Lastname"
                 className={error.lastname ? "error-input" : ""}
+                disabled={isSubmitting}
               />
               {error.lastname && (
                 <p className="error-message">{error.lastname}</p>
@@ -151,6 +181,7 @@ class ContactForm extends Component {
                 name="email"
                 placeholder="Email"
                 className={error.email ? "error-input" : ""}
+                disabled={isSubmitting}
               />
               {error.email && <p className="error-message">{error.email}</p>}
             </div>
@@ -164,6 +195,7 @@ class ContactForm extends Component {
                 name="subject"
                 placeholder="Subject"
                 className={error.subject ? "error-input" : ""}
+                disabled={isSubmitting}
               />
               {error.subject && (
                 <p className="error-message">{error.subject}</p>
@@ -178,6 +210,7 @@ class ContactForm extends Component {
                 onChange={this.changeHandler}
                 placeholder="Message"
                 className={error.notes ? "error-input" : ""}
+                disabled={isSubmitting}
               ></textarea>
               {error.notes && <p className="error-message">{error.notes}</p>}
             </div>
