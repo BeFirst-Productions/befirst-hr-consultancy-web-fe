@@ -34,13 +34,19 @@ const ServiceSingleSection1 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>HR Consulting Services </h2>
+                                    <h2>HR Operations & Administration Services in Kerala</h2>
                                     <p>
-At <strong> Befirst HR & Management Consultancy, </strong>  we specialize in creating robust HR frameworks that empower businesses to operate smoothly, attract top talent, and maintain compliance with legal and organizational standards. Whether you are a <strong> startup finding your footing, </strong> an <strong> SME scaling up, </strong> or a <strong> corporate aiming for efficiency, </strong>  our HR solutions are tailored to your growth stage and long-term vision.                                       
- </p>
+                                        Efficient HR operations are the backbone of a successful business.
+                                        Without streamlined HR processes, companies face compliance risks,
+                                        employee dissatisfaction, and reduced productivity. At <strong> Befirst HR & Management Consultancy, </strong>
+                                        we help organizations in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong>
+                                         build robust HR operations that save time,
+                                        reduce errors, and ensure smooth employee management.
+                                    </p>
                                     <p>
-We understand the unique HR challenges faced by <strong> Kerala-based entrepreneurs, companies, and leaders, </strong> and we design systems that balance performance, compliance, and employee satisfaction.
- </p>
+                                        Whether you are an <strong> entrepreneur, SME, or a corporate leader, </strong>
+                                        our HR operations support will simplify your day-to-day processes so you can focus on growing your business.
+                                    </p>
                                 </div>
                             </div>
                             <Solutions1 />
@@ -51,7 +57,7 @@ We understand the unique HR challenges faced by <strong> Kerala-based entreprene
                             <Benefits /> */}
                         </div>
                     </div>
-                    <ServiceSingleSidebar  CTAIMG={ctsImg}/>
+                    <ServiceSingleSidebar CTAIMG={ctsImg} />
 
                 </div>
             </div>

@@ -1,28 +1,12 @@
 import React from 'react';
-import { MapPin, Settings, ShieldCheck, TrendingUp } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 
 const WhyChoose2 = () => {
     const reasons = [
-        {
-            icon: <MapPin size={28} className="text-primary" />,
-            title: "Local Expertise:",
-            desc: "Deep understanding of Kerala’s business and workforce culture."
-        },
-        {
-            icon: <Settings size={28} className="text-primary" />,
-            title: "Custom Solutions",
-            desc: "Tailored HR frameworks for startups, SMEs, and corporates."
-        },
-        {
-            icon: <ShieldCheck size={28} className="text-primary" />,
-            title: "End-to-End Support",
-            desc: " From consultation to implementation and continuous improvement."
-        },
-        {
-            icon: <TrendingUp size={28} className="text-primary" />,
-            title: "Proven Results:",
-            desc: " Helping businesses across Kozhikode, Kochi, and Trivandrum reduce attrition and improve team performance."
-        }
+        "10+ years of HR expertise across multiple industries.",
+        "Customized HR solutions for startups, SMEs, and enterprises.",
+        "Compliance with Kerala’s labour laws and global HR standards.",
+        "Support for C-suite leaders, entrepreneurs, and managers."
     ];
 
     return (
@@ -32,22 +16,23 @@ const WhyChoose2 = () => {
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
                         <h2 className="display-6 fw-bold mb-3 text-dark">
-                            Why Choose Befirst for HR Consultancy?
+                         Why Choose Befirst HR for HR Planning in Kerala?
                         </h2>
-                        <p className="lead text-muted">
+                        {/* <p className="lead text-muted">
                             Partnering with us ensures you gain not just HR support, but a strategic edge in driving business growth.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
 
-                {/* Timeline List */}
+                {/* Professional List */}
                 <div className="why-list mx-auto" style={{maxWidth: '700px'}}>
                     {reasons.map((reason, index) => (
                         <div key={index} className="d-flex align-items-start mb-4">
-                            <div className="why-icon me-3">{reason.icon}</div>
+                            <div className="why-icon me-3">
+                                <CheckCircle size={20} className="text-success" />
+                            </div>
                             <div>
-                                <h5 className="fw-bold text-dark mb-1">{reason.title}</h5>
-                                <p className="text-muted mb-0">{reason.desc}</p>
+                                <p className="text-dark mb-0 ">{reason}</p>
                             </div>
                         </div>
                     ))}
@@ -56,17 +41,31 @@ const WhyChoose2 = () => {
 
             <style jsx>{`
                 .why-list .why-icon {
-                    width: 50px;
-                    height: 50px;
+                fontSize: 20px;
+                    width: 40px;
+                    height: 40px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     border-radius: 50%;
-                    background: rgba(37, 99, 235, 0.1);
+                    background: rgba(13, 202, 240, 0.1);
+                    flex-shrink: 0;
                 }
-                .why-list .why-icon svg {
-                    width: 22px;
-                    height: 22px;
+                
+                .why-list .d-flex {
+                    padding: 1rem;
+                    border-radius: 8px;
+                    transition: all 0.3s ease;
+                }
+                
+                .why-list .d-flex:hover {
+                    background: rgba(255, 255, 255, 0.8);
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                }
+                
+                .why-list p {
+                    line-height: 1.6;
+                    color: #495057;
                 }
             `}</style>
         </section>

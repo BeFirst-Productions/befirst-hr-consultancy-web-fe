@@ -12,12 +12,12 @@ const ServiceSinglePage2 = () => {
     return (
         <>
             <SEO
-                title="Human Capital Development Services in Kerala | Befirst HR & Management Consultancy"
-                description="Boost employee engagement, retention, and productivity with Befirst HR & Management Consultancy’s Human Capital Development services in Kerala. Serving Kozhikode, Kochi, Trivandrum & beyond."
-                keywords={"human capital development Kerala, employee engagement Kerala, HR consultancy Kozhikode, HR consulting Kochi, HR strategy Kerala, retention strategy Kerala, employee orientation Kerala, HR solutions Trivandrum, business HR consultancy Kerala, leadership HR services Kerala"}
+                title="HR Planning & Organization Services in Kerala | Befirst HR Consultancy"
+                description="Befirst HR provides expert HR Planning & Organization along with HR Operations & Administration Services in Kerala. We help businesses in Kozhikode, Kochi & Trivandrum streamline policies, workforce planning, and performance systems for sustainable growth."
+                keywords={"HR Operations & Administration Services in Kerala, HR Planning Kerala, HR consultancy Kozhikode, HR consultancy Kochi, HR consultancy Trivandrum, manpower planning Kerala, HR policy development Kerala, performance appraisal Kerala, HR management services Kerala"}
             />
             <Navbar2 />
-            <PageTitle pageTitle={'Human Capital Development'} pagesub={'Services'} serviceTitle={'Human Capital Development'} />
+            <PageTitle pageTitle={'HR Planning & Organization'} pagesub={'Services'} serviceTitle={'HR Planning & Organization'} />
             <ServiceSingleSection2  />
             <Footer />
             {/* <Scrollbar /> */}

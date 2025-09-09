@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Users, 
-  TrendingUp, 
-  PieChart, 
+  ClipboardList, 
+  GraduationCap, 
   Calculator, 
-  SearchCheck, 
-  Presentation
+  UserSearch, 
+  Shield,
+  UserPlus,
+  UserCheck,
+  Settings
 } from 'lucide-react';
 import { service as dummyServices } from '../data/dummyService';
 import { Link } from 'react-router-dom';
@@ -13,25 +16,28 @@ import { Link } from 'react-router-dom';
 // Map the dummy services to the format expected by the component
 const serviceData = dummyServices.map((service, index) => {
   // Assign appropriate icons based on service ID or title
-  let iconComponent;
+let iconComponent;
   switch(service.id) {
-    case 1:
-      iconComponent = Users;
+    case 1: // HR Operations & Administration
+      iconComponent = Settings;
       break;
-    case 2:
-      iconComponent = TrendingUp;
+    case 2: // HR Planning & Organization
+      iconComponent = ClipboardList;
       break;
-    case 3:
-      iconComponent = PieChart;
+    case 3: // Learning & Development
+      iconComponent = GraduationCap;
       break;
-    case 4:
+    case 4: // Payroll & Compensation
       iconComponent = Calculator;
       break;
-    case 5:
-      iconComponent = SearchCheck;
+    case 5: // Recruitment Services
+      iconComponent = UserSearch;
       break;
-    case 6:
-      iconComponent = Presentation;
+    case 6: // Quality Assurance & Compliance
+      iconComponent = Shield;
+      break;
+    case 7: // Talent Acquisition & Onboarding
+      iconComponent = UserCheck;
       break;
     default:
       iconComponent = Users;

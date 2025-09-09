@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { service } from "../data/dummyService";
-import { Calculator, PieChart, Presentation, SearchCheck, TrendingUp, Users } from "lucide-react";
+import { Calculator, ClipboardList, GraduationCap, PieChart, Presentation, SearchCheck, Settings, Shield, TrendingUp, UserCheck, Users, UserSearch } from "lucide-react";
 
 
 class Services2 extends Component {
@@ -59,17 +59,19 @@ class Services2 extends Component {
         const renderServiceIcon = (serviceId) => {
             switch(serviceId) {
                 case 1:
-                    return <Users size={45} />;
+                    return <Settings size={45} />;
                 case 2:
-                    return <TrendingUp size={45} />;
+                    return <ClipboardList size={45} />;
                 case 3:
-                    return <PieChart size={45} />;
+                    return <GraduationCap size={45} />;
                 case 4:
                     return <Calculator size={45} />;
                 case 5:
-                    return <SearchCheck size={45} />;
+                    return <UserSearch size={45} />;
                 case 6:
-                    return <Presentation size={45} />;
+                    return <Shield size={45} />;
+                case 7:
+                    return <UserCheck size={45} />;
                 default:
                     return <Users size={45} />;
             }

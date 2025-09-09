@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
 
-const ServiceFAQ4 = (props) => {
+const ServiceFAQ7 = (props) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
@@ -26,12 +26,12 @@ const ServiceFAQ4 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Why should SMEs in Kerala outsource payroll management?
+                                    Why should Kerala businesses outsource talent acquisition?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Outsourcing payroll saves time, reduces errors, ensures compliance, and allows SMEs to focus on growing their business instead of handling administrative tasks.
+                                    Outsourcing saves time, ensures better candidate quality, and allows businesses to focus on growth while experts handle hiring.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +42,12 @@ const ServiceFAQ4 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    Can Befirst HR handle payroll for startups with small teams?
+                                    Do you provide recruitment support for startups and SMEs?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We provide scalable payroll solutions for startups, SMEs, and large organizations in Kerala.
+                                    Yes. We offer customized recruitment services designed to meet the unique hiring needs of startups, SMEs, and family-run businesses in Kerala.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +58,13 @@ const ServiceFAQ4 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you manage compliance related to gratuity and final settlements?
+                                    How do you ensure smooth onboarding for new hires?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Absolutely. We ensure all final settlements, gratuity, and exit-related payments follow Kerala labour law requirements.
+                                    We design structured onboarding frameworks that align new employees with company culture, policies, and job roles, ensuring a faster ramp-up.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,12 +75,12 @@ const ServiceFAQ4 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Is your payroll system secure and reliable?
+                                    Do you also help with employer branding?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We use secure systems that ensure accuracy, confidentiality, and timely payroll processing.
+                                    Absolutely. We help businesses enhance their employer brand, making them more attractive to top talent in Kerala.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -93,4 +93,4 @@ const ServiceFAQ4 = (props) => {
     )
 }
 
-export default ServiceFAQ4;
+export default ServiceFAQ7;

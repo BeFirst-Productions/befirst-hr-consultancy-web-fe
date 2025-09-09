@@ -7,7 +7,7 @@ const Solutions2 = ({ pointTitle = "Our Solutions", points = [] }) => {
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Key Human Capital Development Programs</h2>
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Our HR Planning & Organization Services</h2>
                         {/* <p className="lead text-muted">
                                 Comprehensive HR solutions tailored to drive your business success
                             </p> */}
@@ -22,9 +22,9 @@ const Solutions2 = ({ pointTitle = "Our Solutions", points = [] }) => {
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Orientation Frameworks</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Business Planning & KPI Development</h5>
                                     <p className="text-muted mb-0">
-                                        Smooth onboarding that accelerates productivity and builds loyalty from day one.
+                                        We align HR strategies with your business goals by designing Key Performance Indicators (KPIs) that measure success and improve accountability.
                                     </p>
 
                                 </div>
@@ -36,9 +36,9 @@ const Solutions2 = ({ pointTitle = "Our Solutions", points = [] }) => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Employee Engagement Surveys</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Workforce & Manpower Planning</h5>
                                     <p className="text-muted mb-0">
-                                        Data-driven insights to improve workplace satisfaction and performance.                                        </p>
+                                        Get the right number of people with the right skills. We forecast manpower needs, optimize workforce allocation, and reduce hiring gaps.                                      </p>
 
                                 </div>
                             </div>
@@ -49,10 +49,10 @@ const Solutions2 = ({ pointTitle = "Our Solutions", points = [] }) => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Retention Strategy Development</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Org Chart Design & Job Descriptions</h5>
                                     <p className="text-muted mb-0">
-Proven plans to keep your best talent motivated and committed.
-                                          </p>
+                                        We create clear organizational structures and detailed job descriptions to improve communication, accountability, and efficiency.
+                                    </p>
 
                                 </div>
                             </div>
@@ -63,9 +63,66 @@ Proven plans to keep your best talent motivated and committed.
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">HR Alignment with Business Goals</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Policy & Procedure Frameworks (with updates)</h5>
                                     <p className="text-muted mb-0">
-Strategic HR planning to support your growth vision.                                         </p>
+                                        Build a compliant and future-ready workplace with customized HR policies tailored to Kerala’s labour laws and global best practices.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Talent & Succession Planning</h5>
+                                    <p className="text-muted mb-0">
+                                        Secure your company’s future by identifying high-potential employees and preparing them for leadership roles.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Performance Appraisal Systems</h5>
+                                    <p className="text-muted mb-0">
+                                        Drive employee motivation and retention with structured performance evaluation models and continuous feedback systems.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">OD Initiatives & Change Management</h5>
+                                    <p className="text-muted mb-0">
+                                        We support organizational development (OD) and guide businesses through change to ensure smooth transitions and workforce alignment.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Process Automation & Standardization</h5>
+                                    <p className="text-muted mb-0">
+                                        Save time and reduce errors by automating repetitive HR processes and implementing standardized frameworks.
+                                    </p>
 
                                 </div>
                             </div>

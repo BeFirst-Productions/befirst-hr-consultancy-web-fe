@@ -92,10 +92,13 @@ const Footer = (props) => {
                                     <h3>Our Services</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/service/hr-consulting-services">HR Consulting Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/human-capital-development">Human Capital Development</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/management-consultancy">Management Consultancy</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/payroll=setup-&-training">Payroll Management & Training</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/hr-operations-&-administration">HR Operations & Administration</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/talent-acquisition-&-Onboarding ">Talent Acquisition & Onboarding</Link></li>
+
+
 
                                 </ul>
                             </div>
@@ -109,7 +112,7 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/service/recruitment-services">Recruitment Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/staff-&-leadership-training">Staff & Leadership Training</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/learning-&-development">Learning & Development</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -42,6 +42,7 @@ import ServiceSinglePage5 from '../ServiceSinglePage/service5';
 import ServiceSinglePage6 from '../ServiceSinglePage/service6';
 import ServiceSinglePage1 from '../ServiceSinglePage/service1';
 import HRChatbot from '../../components/HR-chatbot';
+import ServiceSinglePage7 from '../ServiceSinglePage/service7';
 
 
 const AllRoute = () => {
@@ -56,12 +57,13 @@ const AllRoute = () => {
 
           <Route path='/services' element={<ServicePage/>} />
           <Route path='/service-s2' element={<ServicePageS2/>} />
-          <Route path='/service/hr-consulting-services' element={<ServiceSinglePage1 />} />
-          <Route path='/service/human-capital-development' element={<ServiceSinglePage2 />} />
-          <Route path='/service/management-consultancy' element={<ServiceSinglePage3 />} />
-          <Route path='/service/payroll=setup-&-training' element={<ServiceSinglePage4 />} />
+          <Route path='/service/hr-operations-&-administration' element={<ServiceSinglePage1 />} />
+          <Route path='/service/hr-planning-&-organization' element={<ServiceSinglePage2 />} />
+          <Route path='/service/learning-&-development' element={<ServiceSinglePage3 />} />
+          <Route path='/service/payroll-&-compensation' element={<ServiceSinglePage4 />} />
           <Route path='/service/recruitment-services' element={<ServiceSinglePage5 />} />
-          <Route path='/service/staff-&-leadership-training' element={<ServiceSinglePage6 />} />
+          <Route path='/service/quality-assurance-&-compliance' element={<ServiceSinglePage6 />} />
+          <Route path='/service/talent-acquisition-&-Onboarding' element={<ServiceSinglePage7 />} />
 
           <Route path='/404' element={<ErrorPage />} />
           <Route path='/contact' element={<ContactPage />} />

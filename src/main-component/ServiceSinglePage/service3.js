@@ -7,17 +7,17 @@ import SEO from '../../components/seo';
 import ServiceSingleSection3 from '../../components/ServiceSingleSection/service3';
 
 const ServiceSinglePage3 = () => {
-    
+
     return (
         <>
             <SEO
-                title="Management Consultancy in Kerala – Befirst HR & Management Consultancy"
-                description="Boost your business growth with expert management consultancy in Kerala. Specializing in business process optimization, startup support, and HR strategy for companies in Kozhikode, Kochi, and Trivandrum."
-                keywords={"management consultancy Kerala, business process optimization Kerala, startup operational support Kerala, HR leadership Kerala, organizational planning Kerala, Kozhikode management consultant, Kochi HR consultant, Trivandrum business consultancy, Kerala startup consultant, business growth Kerala"}
+                title=" Learning & Development (L&D) Services in Kerala | Befirst HR Consultancy"
+                description="Befirst HR offers expert Learning & Development (L&D) Services in Kerala. We provide employee training, leadership programs, and skill development for businesses in Kozhikode, Kochi & Trivandrum."
+                keywords={"Learning & Development (L&D) Services in Kerala, employee training Kerala, leadership training Kerala, soft skills training Kerala, management training Kerala, HR consultancy Kerala, corporate training Kozhikode, training services Kochi, training consultancy Trivandrum"}
             />
             <Navbar2 />
-            <PageTitle pageTitle={'Management Consultancy Services'} pagesub={'Services'} serviceTitle={'Management Consultancy Services'} />
-            <ServiceSingleSection3  />
+            <PageTitle pageTitle={'Learning & Development'} pagesub={'Services'} serviceTitle={'Learning & Development'} />
+            <ServiceSingleSection3 />
             <Footer />
             {/* <Scrollbar /> */}
         </>

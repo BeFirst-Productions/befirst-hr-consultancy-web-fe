@@ -25,11 +25,12 @@ const ServiceFAQ = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography>Why should my Kerala-based business invest in HR consultancy?</Typography>
+                                <Typography>What are HR operations and why are they important?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    HR consultancy ensures your business has structured policies, legal compliance, and effective talent management systems – essential for growth, productivity, and avoiding costly legal issues.                                </Typography>
+HR operations cover daily HR activities like payroll inputs, attendance, employee data, and compliance. Smooth HR operations help businesses save time, avoid errors, and maintain employee trust.                            
+  </Typography>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
@@ -38,11 +39,12 @@ const ServiceFAQ = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography>Do you offer HR consultancy for startups in Kerala?</Typography>
+                                <Typography>Can you help SMEs in Kerala digitize HR processes?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes! We specialize in creating scalable HR frameworks for startups, ensuring they are ready for rapid growth while maintaining compliance and efficiency.                                </Typography>
+                                  Yes. We provide HRIS setup and digital HR solutions that make HR management faster, more accurate, and cost-effective for SMEs and startups.      
+                                   </Typography>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -51,12 +53,13 @@ const ServiceFAQ = (props) => {
                                 aria-controls="panel3bh-content"
                                 id="panel3bh-header"
                             >
-                                <Typography> How long does it take to set up a complete HR system?</Typography>
+                                <Typography>Do you provide support for employee exits and offboarding?</Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Depending on your organization’s size, it can take 2–6 weeks to design, implement, and train your team on the new HR system.                                </Typography>
+                                   Absolutely. We ensure exit formalities and offboarding are handled smoothly, with full compliance to Kerala labor laws.                              
+                                    </Typography>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
@@ -65,14 +68,15 @@ const ServiceFAQ = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography>Can you help with performance appraisal systems?</Typography>
+                                <Typography>Can HR operations be customized for startups and family businesses?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Absolutely. We create customized job descriptions, KPIs, and appraisal systems to measure and improve employee performance.                                </Typography>
+Yes. Our services are fully customizable for startups, SMEs, and large enterprises in Kerala.                          
+  </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+                        {/* <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                             <AccordionSummary
                                 expandIcon={""}
                                 aria-controls="panel4bh-content"
@@ -85,7 +89,7 @@ const ServiceFAQ = (props) => {
                                     Yes, we offer both one-time setup services and ongoing HR management support packages to ensure your systems evolve with your business.
                                 </Typography>
                             </AccordionDetails>
-                        </Accordion>
+                        </Accordion> */}
                     </div>
                 </div>
             </div>

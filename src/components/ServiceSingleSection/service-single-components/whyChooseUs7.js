@@ -1,12 +1,12 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const WhyChoose = () => {
+const WhyChoose7 = () => {
     const reasons = [
-        "40+ years of expertise in managing HR for large-scale organizations and SMEs.",
-        "End-to-end HR operations support for startups, corporates, and entrepreneurs.",
-        "Digital-first approach to HR systems for efficiency and accuracy.",
-        "Local expertise in Kerala's HR, labour, and compliance frameworks."
+        "40+ years of HR experience across multinational and local companies.",
+        " End-to-end recruitment and onboarding support for startups, SMEs, and corporates.",
+        "Expertise in aligning talent acquisition with business growth strategies.",
+        " Local knowledge of Kerala’s job market and workforce trends."
     ];
 
     return (
@@ -16,16 +16,16 @@ const WhyChoose = () => {
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
                         <h2 className="display-6 fw-bold mb-3 text-dark">
-                            Why Choose Befirst for HR Consultancy?
+                         Why Choose Befirst HR for Talent Acquisition?
                         </h2>
-                        <p className="lead text-muted">
+                        {/* <p className="lead text-muted">
                             Partnering with us ensures you gain not just HR support, but a strategic edge in driving business growth.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
 
                 {/* Professional List */}
-                <div className="why-list mx-auto" style={{maxWidth: '700px'}}>
+                <div className="why-list mx-auto" style={{ maxWidth: '700px' }}>
                     {reasons.map((reason, index) => (
                         <div key={index} className="d-flex align-items-start mb-4">
                             <div className="why-icon me-3">
@@ -72,4 +72,4 @@ const WhyChoose = () => {
     );
 };
 
-export default WhyChoose;
+export default WhyChoose7;

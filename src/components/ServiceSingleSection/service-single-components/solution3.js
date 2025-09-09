@@ -7,9 +7,10 @@ const Solutions3 = ({ pointTitle = "Our Solutions", points = [] }) => {
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Core Advisory Areas</h2>
-                        <p className="lead text-muted">
-We offer specialized consultancy services to ensure your business runs at its full potential:                            </p>
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Learning & Development Services</h2>
+                        {/* <p className="lead text-muted">
+We offer specialized consultancy services to ensure your business runs at its full potential:                            
+</p> */}
                     </div>
                 </div>
 
@@ -21,9 +22,25 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Business Process Optimization</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Employee & Leadership Training Programs</h5>
                                     <p className="text-muted mb-0">
-Streamline workflows, reduce costs, and boost efficiency with data-driven process improvements.                                    </p>
+                                        Comprehensive workshops to improve performance, leadership, and decision-making across all levels of your organization.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Soft Skills, Communication & Customer Care</h5>
+                                    <p className="text-muted mb-0">
+                                        Enhance interpersonal communication, problem-solving, and customer experience with customized soft skills training.
+
+                                    </p>
 
                                 </div>
                             </div>
@@ -34,9 +51,10 @@ Streamline workflows, reduce costs, and boost efficiency with data-driven proces
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Startup Operational Support</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Supervisory & Management Skills Training</h5>
                                     <p className="text-muted mb-0">
-Guidance for new ventures to set up operations, establish systems, and launch successfully.                                        </p>
+                                        Equip managers and supervisors with effective leadership, delegation, and team management strategies.
+                                    </p>
 
                                 </div>
                             </div>
@@ -47,10 +65,10 @@ Guidance for new ventures to set up operations, establish systems, and launch su
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Organizational Planning</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Hiring & Interview Skills Workshops</h5>
                                     <p className="text-muted mb-0">
-Structuring your company for maximum performance, scalability, and growth.
-                                          </p>
+                                        Train HR teams and managers on structured interview techniques, ensuring the right talent selection.
+                                    </p>
 
                                 </div>
                             </div>
@@ -61,10 +79,38 @@ Structuring your company for maximum performance, scalability, and growth.
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Interim HR Leadership & Strategy</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Orientation & Induction Programs</h5>
                                     <p className="text-muted mb-0">
-Providing temporary HR leadership and developing strong talent strategies to support business objectives.
- </p>
+                                        Smooth onboarding experiences for new hires with impactful orientation sessions aligned with company values.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Succession Planning & Leadership Pipelines</h5>
+                                    <p className="text-muted mb-0">
+                                        Identify and groom high-potential employees to step into critical leadership roles when needed.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">International Training Coordination</h5>
+                                    <p className="text-muted mb-0">
+                                        Assistance in connecting your teams with global training opportunities and certifications.
+                                    </p>
 
                                 </div>
                             </div>

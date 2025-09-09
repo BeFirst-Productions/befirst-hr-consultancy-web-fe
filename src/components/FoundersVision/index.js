@@ -288,7 +288,7 @@ const FoundersVision = () => {
       }
     `;
     document.head.appendChild(style);
-    
+
     return () => {
       document.head.removeChild(style);
     };
@@ -304,17 +304,17 @@ const FoundersVision = () => {
               <div className="founder-image-container">
                 <div className="founder-image">
                   {/* Replace this div with your actual image */}
-                  <img 
+                  <img
                     src={img1}
-                    alt="Mr. Abdurahman Charummal" 
+                    alt="Mr. Charummal"
                     className="img-fluid"
                   />
                 </div>
                 <div className="text-center mt-4">
-                  <h3 style={{fontSize: '2rem', fontWeight: '700', color: '#1e293b', marginBottom: '8px'}}>
-                    Mr. Abdurahman Charummal
+                  <h3 style={{ fontSize: '2rem', fontWeight: '700', color: '#1e293b', marginBottom: '8px' }}>
+                    Mr. Charummal
                   </h3>
-                  <p style={{fontSize: '1.2rem', color: '#64748b', fontWeight: '500', marginBottom: '0'}}>
+                  <p style={{ fontSize: '1.2rem', color: '#64748b', fontWeight: '500', marginBottom: '0' }}>
                     Founder & CEO
                   </p>
                 </div>
@@ -325,7 +325,7 @@ const FoundersVision = () => {
                 <div className="text-center text-lg-start mb-4">
                   <p className="founder-subtitle">A Legacy of Leadership and Excellence in Global Energy and Utilities</p>
                 </div>
-                
+
                 <div className="experience-highlights">
                   <div className="experience-item">
                     <Award className="experience-icon" size={24} />
@@ -344,7 +344,7 @@ const FoundersVision = () => {
                     <span>Master of Complex, High-Impact Operations</span>
                   </div>
                 </div>
-                
+
                 <Row className="stats-row">
                   <Col sm={3} xs={6}>
                     <div className="stat-item">
@@ -392,11 +392,11 @@ const FoundersVision = () => {
             <Col lg={10} className="mx-auto">
               <div className="story-content">
                 <p>
-                  With an illustrious career spanning <strong>over 40 years</strong>, Mr. Abdurahman stands as a beacon of leadership and expertise in the corporate world. Having held <strong>key executive roles at Qatar Energy and Kahramaa (Qatar General Water and Electricity Corporation)</strong>, he has been at the helm of some of the most complex, high-impact operations in the Middle East.
+                  With an illustrious career spanning <strong>over 40 years</strong>, Mr. Charummal stands as a beacon of leadership and expertise in the corporate world. Having held <strong>key executive roles at Qatar Energy and Kahramaa (Qatar General Water and Electricity Corporation)</strong>, he has been at the helm of some of the most complex, high-impact operations in the Middle East.
                 </p>
-                
+
                 <div className="highlight-text">
-                  Leading multinational corporations with more than 10,000 employees, Mr. Abdurahman mastered the art of people management, organizational development, and strategic growth on a massive scale. His proven ability to drive operational excellence, nurture talent, and build resilient teams has earned him respect across industries and geographies.
+                  Leading multinational corporations with more than 10,000 employees, Mr. Charummal mastered the art of people management, organizational development, and strategic growth on a massive scale. His proven ability to drive operational excellence, nurture talent, and build resilient teams in a multi-cultural environment has earned him respect across industries and geographies.
                 </div>
               </div>
             </Col>
@@ -419,19 +419,19 @@ const FoundersVision = () => {
             <Col lg={10} className="mx-auto">
               <div className="story-content">
                 <p>
-                  Leveraging this unparalleled experience, Mr. Abdurahman founded <strong>Befirst HR and Management Consultancy</strong> with a clear mission: to empower <strong>SMEs and growing businesses in Kerala and India</strong> with the same level of strategic HR leadership that fuels global giants.
+                  Leveraging this unparalleled experience, Mr. Charummal founded <strong>Befirst HR and Management Consultancy</strong> with a clear mission: to empower <strong>SMEs and growing businesses in Kerala and India</strong> with the same level of strategic HR leadership that fuels global giants.
                 </p>
-                
+
                 <p>
                   He understands that every business, regardless of size, thrives when guided by sound people management practices — from recruitment to compliance, training, and leadership development. His global insights, combined with a deep appreciation for local business culture, enable Befirst HRM to deliver tailored, impactful solutions.
                 </p>
               </div>
-              
+
               <div className="expertise-grid">
-                <h3 className="text-center mb-5" style={{fontSize: '2.5rem', color: '#1e3a8a', fontWeight: '700'}}>
-                  Why Mr. Abdurahman is a Major Asset to Befirst HRM
+                <h3 className="text-center mb-5" style={{ fontSize: '2.5rem', color: '#1e3a8a', fontWeight: '700' }}>
+                  Why Mr. Charummal is a Major Asset to Befirst HRM
                 </h3>
-                
+
                 <Row>
                   <Col md={6} className="mb-4">
                     <div className="expertise-item">
@@ -471,8 +471,8 @@ const FoundersVision = () => {
             <Col lg={12}>
               <div className="mission-content">
                 <h2 className="section-title mb-4">A Partner in Your Growth Journey</h2>
-                <p className="lead" style={{fontSize: '1.4rem', lineHeight: '1.7', color: '#64748b'}}>
-                  At Befirst HR, Mr. Abdurahman leads a dedicated team committed to transforming HR from a business cost to a growth catalyst. His story is not just about decades of leadership — it's about <strong style={{color: '#1e293b'}}>bringing that leadership to you</strong>, to help your business attract the right talent, develop effective teams, and scale sustainably in today's competitive markets.
+                <p className="lead" style={{ fontSize: '1.4rem', lineHeight: '1.7', color: '#64748b' }}>
+                  At Befirst HR, Mr. Charummal leads a dedicated team committed to transforming HR from a business cost to a growth catalyst. His story is not just about decades of leadership — it's about <strong style={{ color: '#1e293b' }}>bringing that leadership to you</strong>, to help your business attract the right talent, develop effective teams, and scale sustainably in today's competitive markets.
                 </p>
               </div>
             </Col>

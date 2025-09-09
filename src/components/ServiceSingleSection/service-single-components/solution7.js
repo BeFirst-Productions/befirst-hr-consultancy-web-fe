@@ -1,13 +1,13 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const Solutions6 = () => {
+const Solutions7 = () => {
     return (
         <section className="solutions-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Quality Assurance & Compliance Services</h2>
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Talent Acquisition & Onboarding Services</h2>
 
                     </div>
                 </div>
@@ -20,9 +20,9 @@ const Solutions6 = () => {
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">HR Audit & Risk Assessment</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Employer Branding & Job Advertising</h5>
                                     <p className="text-muted mb-0">
-                                        Comprehensive HR audits to identify gaps in compliance and performance.
+                                        Build a strong employer brand and attract top talent with strategic job postings.
                                     </p>
 
                                 </div>
@@ -34,9 +34,9 @@ const Solutions6 = () => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Statutory & Legal Compliance</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Candidate Sourcing, Screening & Interviews</h5>
                                     <p className="text-muted mb-0">
-                                        Guidance on labour law, PF, ESI, gratuity, maternity, and wage regulations.
+                                        Identify, evaluate, and shortlist the best-fit candidates through proven recruitment methods.
                                     </p>
 
                                 </div>
@@ -48,9 +48,9 @@ const Solutions6 = () => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Policy & Procedure Review</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Offer Letters, Contracts & Documentation</h5>
                                     <p className="text-muted mb-0">
-                                        Aligning HR policies with Kerala’s legal requirements and global standards.
+                                        Ensure error-free and compliant documentation for smooth hiring.
                                     </p>
 
                                 </div>
@@ -62,9 +62,9 @@ const Solutions6 = () => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Workplace Health & Safety Compliance</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Onboarding & Orientation Frameworks</h5>
                                     <p className="text-muted mb-0">
-                                        Implementing employee safety practices and compliance checks.
+                                        Provide structured onboarding programs that align new employees with company culture and values.
                                     </p>
 
                                 </div>
@@ -76,23 +76,9 @@ const Solutions6 = () => {
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Employee Documentation & Records Management</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Probation Review & Confirmation</h5>
                                     <p className="text-muted mb-0">
-                                        Proper contracts, offer letters, and compliance-ready documentation.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Ethical & Governance Frameworks</h5>
-                                    <p className="text-muted mb-0">
-                                        Building transparent HR systems that foster trust and accountability.
+                                        Manage probation evaluations and confirmations to ensure long-term employee success.
                                     </p>
 
                                 </div>
@@ -120,4 +106,4 @@ const Solutions6 = () => {
     );
 };
 
-export default Solutions6;
+export default Solutions7;

@@ -37,13 +37,13 @@ const ServiceSinglePage1 = () => {
     return (
         <>
             <SEO
-                title="HR Consultancy Services in Kerala | Befirst HR & Management Consultancy"
-                description="Expert HR consultancy in Kerala for startups, SMEs & corporates. HR audits, policy manuals, structuring, appraisals, onboarding & compliance. Boost growth & efficiency today!"
-                keywords={"HR consultancy Kerala, HR services Kerala, HR audits Kerala, policy manuals Kerala, HR outsourcing Kerala, HR structuring Kerala, performance management Kerala, HR consulting for startups Kerala, HR solutions Kerala, corporate HR consulting Kerala, C-suite HR support Kerala, SME HR consultancy Kerala"}
+                title="HR Operations & Administration Services in Kerala | Befirst HR Consultancy"
+                description="Streamline HR operations with Befirst HR – payroll inputs, HRIS, records management, travel, and offboarding services in Kozhikode, Kochi & Trivandrum. Free consultation available!"
+                keywords={"HR operations Kerala, HR administration Kozhikode, HRIS Kochi, payroll inputs Trivandrum, employee data management Kerala, HR compliance Kerala, HR process outsourcing Kerala, HR consultancy Kerala."}
             />
             <Navbar2 />
-            <PageTitle pageTitle={'HR Consulting Services'} pagesub={'Services'} serviceTitle={'HR Consulting Services'} />
-            <ServiceSingleSection1  />
+            <PageTitle pageTitle={'HR Operations & Administration'} pagesub={'Services'} serviceTitle={'HR Operations & Administration'} />
+            <ServiceSingleSection1 />
             <Footer />
             {/* <Scrollbar /> */}
         </>

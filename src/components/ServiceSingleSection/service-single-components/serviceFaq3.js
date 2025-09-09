@@ -26,12 +26,12 @@ const ServiceFAQ3 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    What is the role of a management consultant for businesses in Kerala?
+                                    Why is Learning & Development important for businesses in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    A management consultant helps organizations improve efficiency, solve operational challenges, and implement strategies for sustainable growth. At Befirst, we focus on Kerala’s unique business environment to deliver practical and impactful solutions.
+                                    L&D helps employees and leaders develop new skills, adapt to changing markets, and stay competitive. It improves retention, productivity, and overall company growth.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +42,12 @@ const ServiceFAQ3 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    How can startups in Kozhikode, Kochi, and Trivandrum benefit from your services?
+                                    Do you offer leadership training for CEOs and managers?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We provide end-to-end support for startups, from operational setup to HR planning, ensuring a strong foundation for long-term success.
+                                    Yes. Our executive and leadership training programs are designed for CEOs, C-suite employees, and senior managers in Kerala to enhance decision-making and leadership effectiveness.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +58,13 @@ const ServiceFAQ3 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you offer consultancy for established companies as well?
+                                    Can you customize training programs for startups and SMEs?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. Our services cater to both emerging startups and well-established organizations looking to improve efficiency, restructure operations, or enhance HR strategy.
+                                    Absolutely. We design tailored training solutions based on the specific needs, size, and challenges of startups and SMEs in Kerala.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,12 +75,12 @@ const ServiceFAQ3 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    How do I book a consultation with Befirst HR & Management Consultancy?
+                                    Do you provide both in-person and online training?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    You can schedule a free consultation through our website or contact us directly via phone or email. We’ll assess your needs and recommend the best approach.
+                                    Yes, we offer on-site workshops in Kozhikode, Kochi, Trivandrum and also deliver online training sessions for convenience and wider reach.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>

@@ -34,38 +34,26 @@ const ServiceSingleSection2 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Human Capital Development Services</h2>
-                                    <p>At |<strong> Befirst HR & Management Consultancy, </strong> we specialise in helping businesses, entrepreneurs, and leaders in Kerala unlock the full potential of their workforce. From new employee onboarding to long-term retention strategies, our <strong> Human Capital Development solutions </strong>  empower companies to build a culture that retains talent, boosts productivity, and supports sustainable business growth.</p>
-                                </div>
-
-                                <div>
-                                    <h2>Why Human Capital Development Matters</h2>
+                                    <h2>HR Planning & Organization Services in Kerala</h2>
                                     <p>
-                                        In today’s competitive business landscape, your people are your most asset. Whether you’re a startup in Kochi, an SME in Kozhikode, or a large enterprise in Trivandrum, retaining skilled employees and aligning them with your business goals is key to long-term success. Our expert HR consultants design customised frameworks to:
+                                        Running a business in today’s competitive market requires more than just a great idea –
+                                        it needs structured <strong>  HR planning, policies, and performance systems </strong>  that support growth.
+                                        At <strong> Befirst HR & Management Consultancy, </strong> we help <strong>  entrepreneurs, startups, SMEs, and established companies across Kerala  </strong>
+                                        (Kozhikode, Kochi, Trivandrum, and beyond) streamline their HR framework with globally aligned practices.
                                     </p>
-
-                                    <ul style={bulletList}>
-                                        <li style={bulletItem}>
-                                            Increase employee engagement
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Reduce turnover
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Align HR strategies with business objectives
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Enhance leadership effectiveness
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        Our <strong> HR Planning & Organization services </strong> ensure your business has the <strong> right people, policies, and processes  </strong> in place to scale sustainably while 
+                                        reducing risks and maximizing performance.
+                                    </p>
                                 </div>
+
                             </div>
                             <Solutions2 />
                             <WhyChoose2 />
                             <ServiceFAQ2 />
                         </div>
                     </div>
-                    <ServiceSingleSidebar  CTAIMG={ctsImg}/>
+                    <ServiceSingleSidebar CTAIMG={ctsImg} />
 
                 </div>
             </div>

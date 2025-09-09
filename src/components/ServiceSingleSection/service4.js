@@ -1,16 +1,10 @@
 import React from 'react'
 import ServiceSingleSidebar from './service-single-components/sidebar'
-// import Solutions from './service-single-components/solution'
-// import Benefits from './service-single-components/benefits'
-// import WhyChoose from './service-single-components/whyChooseUs'
-import ServiceFAQ2 from './service-single-components/serviceFaq2'
-import WhyChoose2 from './service-single-components/whyChooseUs2'
-import Solutions2 from './service-single-components/solution2'
-import ServiceFAQ3 from './service-single-components/serviceFaq3'
-import Solutions3 from './service-single-components/solution3'
+import WhyChoose4 from './service-single-components/whyChooseUs4'
 import Solutions4 from './service-single-components/solution4'
 import ServiceFAQ4 from './service-single-components/serviceFaq4'
 import ctsImg from "../../images/services/service-cta-4.jpg"
+
 
 
 
@@ -38,33 +32,19 @@ const ServiceSingleSection4 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Payroll Setup, Management & Training Services </h2>
+                                    <h2>Payroll & Compensation Services in Kerala </h2>
                                     <p>
-                                        Running a business in Kerala means handling people, payments, and processes seamlessly. At <strong> Befirst HR & Management Consultancy, </strong> we specialize in <strong> Payroll Setup, Payroll Management, </strong> and  <strong> Payroll Training </strong>  for businesses of all sizes — from startups in Kozhikode to established enterprises in Kochi and Trivandrum.
+                                        Managing payroll and employee compensation can be complex, time-consuming, and risky if not handled correctly. Errors in salary processing,
+                                        tax compliance, or benefits management can lead to dissatisfaction and penalties. At <strong> Befirst HR & Management Consultancy, </strong>  we provide
+                                        <strong> Payroll & Compensation solutions </strong>  that ensure accuracy, compliance, and employee satisfaction for businesses in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala.</strong>
                                     </p>
                                     <p>
-                                        Our payroll solutions help you:
-                                    </p>
-                                    <ul style={bulletList}>
-                                        <li style={bulletItem}>
-                                            Automate salary processing
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Stay 100% compliant with Kerala labour laws
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Save time and avoid costly payroll errors
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Train your HR and finance teams to manage payroll confidently
-                                        </li>
-                                    </ul>
-                                    <p>
-                                        Whether you’re an <strong> entrepreneur, CEO, C-suite leader, </strong>  or <strong> business owner, </strong>  we provide end-to-end payroll services designed to boost efficiency and keep your workforce satisfied.
+                                        Whether you are a <strong> startup, SME, or corporate enterprise, </strong> our payroll experts ensure your employees are paid correctly and on time, every time.
                                     </p>
 
 
-  <h2>Our Payroll Services </h2>
+
+                                    {/* <h2>Our Payroll Services </h2>
                                     <h3>1. Payroll Setup</h3>
                                     <ul style={bulletList}>
                                         <li style={bulletItem}>
@@ -112,14 +92,14 @@ const ServiceSingleSection4 = () => {
                                         <li style={bulletItem}>
                                            Troubleshooting common payroll issues
                                         </li>
-                                    </ul>
+                                    </ul> */}
 
                                 </div>
 
-                               
+
                             </div>
                             <Solutions4 />
-                            {/* <WhyChoose2 /> */}
+                            <WhyChoose4 />
                             <ServiceFAQ4 />
                         </div>
                     </div>

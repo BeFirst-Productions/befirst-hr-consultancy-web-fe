@@ -9,6 +9,7 @@ import Solutions2 from './service-single-components/solution2'
 import ServiceFAQ3 from './service-single-components/serviceFaq3'
 import Solutions3 from './service-single-components/solution3'
 import ctsImg from "../../images/services/service-cta-3.jpg"
+import WhyChoose3 from './service-single-components/whyChooseUs3'
 
 
 
@@ -36,43 +37,23 @@ const ServiceSingleSection3 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Management Consultancy in Kerala</h2>
+                                    <h2>Learning & Development (L&D) Services in Kerala</h2>
                                     <p>
-                                        At <strong> Befirst HR & Management Consultancy, </strong> we help entrepreneurs, startups, and established businesses in Kerala reengineer processes, overcome operational challenges, and build sustainable business structures that drive long-term success.
+                                        In today’s fast-changing business environment, success depends on how well your employees and leaders are trained to adapt, innovate, and perform. At <strong> Befirst HR & Management Consultancy, </strong>  we specialize in <strong> Learning & Development (L&D) solutions </strong>  that empower businesses in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong> to build skilled, confident, and future-ready teams.
                                     </p>
                                     <p>
-                                        Whether you are a <strong> startup founder in Kochi, </strong>  an <p> SME owner in Kozhikode, </p> or a <p> corporate leader in Trivandrum, </p> our consultancy solutions are tailored to your needs, helping you optimize efficiency, enhance productivity, and prepare for the future.
+                                        Whether you’re a <strong> startup building a strong workforce </strong>  or an <strong> established enterprise nurturing future leaders, </strong>  our tailored training programs improve productivity, leadership capabilities, and overall business performance.
                                     </p>
                                 </div>
 
-                                {/* <div>
-                                    <h2>Why Human Capital Development Matters</h2>
-                                    <p>
-                                        In today’s competitive business landscape, your people are your most asset. Whether you’re a startup in Kochi, an SME in Kozhikode, or a large enterprise in Trivandrum, retaining skilled employees and aligning them with your business goals is key to long-term success. Our expert HR consultants design customised frameworks to:
-                                    </p>
 
-                                    <ul style={bulletList}>
-                                        <li style={bulletItem}>
-                                            Increase employee engagement
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Reduce turnover
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Align HR strategies with business objectives
-                                        </li>
-                                        <li style={bulletItem}>
-                                            Enhance leadership effectiveness
-                                        </li>
-                                    </ul>
-                                </div> */}
                             </div>
                             <Solutions3 />
-                            <WhyChoose2 />
+                            <WhyChoose3 />
                             <ServiceFAQ3 />
                         </div>
                     </div>
-                    <ServiceSingleSidebar CTAIMG={ctsImg}/>
+                    <ServiceSingleSidebar CTAIMG={ctsImg} />
 
                 </div>
             </div>

@@ -8,18 +8,18 @@ import SEO from '../../components/seo';
 import ServiceSingleSection4 from '../../components/ServiceSingleSection/service4';
 
 const ServiceSinglePage4 = () => {
-  
+
 
     return (
         <>
             <SEO
-                title="Payroll Setup, Management & Training in Kerala | Befirst HR & Management Consultancy"
-                description="Expert payroll setup, management, and training services for companies, startups, and entrepreneurs in Kerala. Serving Kozhikode, Kochi & Trivandrum. Ensure compliance, accuracy, and efficiency."
-                keywords={"payroll setup Kerala, payroll management Kerala, payroll training Kerala, salary processing Kerala, HR payroll services Kozhikode, Kochi, Trivandrum, payroll outsourcing Kerala, payroll system setup Kerala"}
+                title="Learning & Development (L&D) Services in Kerala | Befirst HR Consultancy"
+                description="Befirst HR offers expert Learning & Development (L&D) Services in Kerala. We provide employee training, leadership programs, and skill development for businesses in Kozhikode, Kochi & Trivandrum."
+                keywords={"Learning & Development (L&D) Services in Kerala, employee training Kerala, leadership training Kerala, soft skills training Kerala, management training Kerala, HR consultancy Kerala, corporate training Kozhikode, training services Kochi, training consultancy Trivandrum"}
             />
             <Navbar2 />
-            <PageTitle pageTitle={'Payroll Setup & Training'} pagesub={'Services'} serviceTitle={'Payroll Setup & Training'} />
-            <ServiceSingleSection4  />
+            <PageTitle pageTitle={'Payroll & Compensation'} pagesub={'Services'} serviceTitle={'Payroll & Compensation'} />
+            <ServiceSingleSection4 />
             <Footer />
             {/* <Scrollbar /> */}
         </>

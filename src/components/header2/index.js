@@ -137,8 +137,20 @@ export default class Header2 extends Component {
                                                         <li><Link onClick={ClickHandler} to="/about/mission-&-values">Our Mission & Values</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li >
-                                                    <Link onClick={ClickHandler} to="/services">Services</Link>
+
+                                                <li>
+                                                    <Link onClick={ClickHandler} to="#">
+                                                        Services
+                                                    </Link>
+                                                    <ul className="sub-menu">
+                                                        <li><Link onClick={ClickHandler} to="/service/hr-operations-&-administration">HR Operations & Administration</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/learning-&-development">Learning & Development</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/recruitment-services">Recruitment Services</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/service/talent-acquisition-&-Onboarding ">Talent Acquisition & Onboarding</Link></li>
+                                                    </ul>
                                                 </li>
                                                 <li >
                                                     <Link onClick={ClickHandler} to="/blogs">Articles</Link>
@@ -239,7 +251,7 @@ export default class Header2 extends Component {
                                                                                         color: '#333',
                                                                                         fontSize: '14px',
                                                                                         marginBottom: '4px',
-                                                                                        pointerEvents: 'none' 
+                                                                                        pointerEvents: 'none'
                                                                                     }}
                                                                                 >
                                                                                     {suggestion.title}

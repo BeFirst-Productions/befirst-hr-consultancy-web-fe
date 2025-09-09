@@ -131,7 +131,7 @@ Running a business in Kerala isn’t just about delivering great products or ser
 
                                 <h3>How Befirst HR & Management Consultancy Can Help</h3>
                                 <p>
-                                    With <strong> 40+ years of expertise </strong>  from our Principal Consultant, Mr. Abdurahman — who has led HR functions for organizations with over <strong> 10,000 employees </strong>  — we provide:
+                                    With <strong> 40+ years of expertise </strong>  from our Principal Consultant, Mr. Charummal — who has led HR functions for organizations with over <strong> 10,000 employees </strong>  — we provide:
                                 </p>
                                 <ul style={bulletList}>
                                     <li style={bulletItem}>End-to-end HR compliance audits</li>

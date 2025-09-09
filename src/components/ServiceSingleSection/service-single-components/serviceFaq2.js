@@ -26,12 +26,13 @@ const ServiceFAQ2 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    What is Human Capital Development and why is it important for businesses in Kerala?
+                                    Why is HR Planning important for startups and SMEs in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Human Capital Development focuses on enhancing employee skills, engagement, and retention to drive business success. In Kerala’s competitive job market, it ensures your company attracts and keeps top talent.                                     </Typography>
+                                    HR Planning ensures businesses have the right workforce, policies, and performance systems in place. For startups and SMEs in Kerala, this helps reduce costs, avoid compliance risks, and scale smoothly.
+                                </Typography>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
@@ -41,12 +42,12 @@ const ServiceFAQ2 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    Do you provide services for small businesses and startups in Kerala?
+                                    Do you provide customized HR policies for Kerala businesses?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. Our solutions are customised for businesses of all sizes, from small startups in Kozhikode to large corporations in Kochi and Trivandrum.
+                                    Yes. We create custom HR policies and frameworks that comply with Kerala’s labour laws while maintaining international HR standards.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -57,13 +58,13 @@ const ServiceFAQ2 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    How can Befirst HR & Management Consultancy help improve employee retention?
+                                    How does succession planning help my business?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We create tailored retention strategies, conduct engagement surveys, and align HR policies with your business goals to ensure employees feel valued and committed.
+                                    Succession planning identifies high-potential employees and trains them for leadership roles, ensuring your company never faces a talent gap during growth or transition.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -74,31 +75,16 @@ const ServiceFAQ2 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Can you provide in-person HR consulting for companies in Kerala?
+                                    Can Befirst HR help automate HR processes?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Absolutely. We offer both online and on-site consultations for clients across Kerala, ensuring personalised service and results-driven strategies.
+                                    Absolutely. We design HR automation systems that streamline payroll, attendance, and appraisal processes – saving time and reducing human error.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How soon can we see results from your Human Capital Development programs?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    While some improvements, like onboarding efficiency, can be seen within weeks, long-term engagement and retention benefits are usually visible within 3–6 months.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>

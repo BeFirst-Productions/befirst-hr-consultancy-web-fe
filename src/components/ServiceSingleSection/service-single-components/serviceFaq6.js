@@ -26,12 +26,12 @@ const ServiceFAQ6 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Who can benefit from your staff and leadership training?
+                                    Why is HR compliance important for companies in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Our programs are ideal for entrepreneurs, startups, small-to-large businesses, managers, CEOs, and C-suite executives looking to improve team performance and leadership skills.
+                                    HR compliance ensures your company follows legal standards, avoids penalties, and builds a safe, ethical, and transparent workplace for employees.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +42,12 @@ const ServiceFAQ6 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    Do you provide training for specific industries?
+                                    Does Befirst HR help with statutory filings like PF & ESI?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We customize our programs for sectors like IT, retail, hospitality, manufacturing, education, healthcare, and more.
+                                    Yes, we provide complete support for PF, ESI, gratuity, wage regulation, maternity benefits, and labour compliance in Kerala.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +58,13 @@ const ServiceFAQ6 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    How long are your training programs?
+                                    Can you help family businesses in Kerala with HR compliance?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Sessions can range from half-day workshops to multi-week development programs, depending on your needs.
+                                    Absolutely. We specialize in building structured HR systems for family-owned businesses, ensuring compliance while maintaining flexibility.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,31 +75,16 @@ const ServiceFAQ6 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Do you offer on-site and online training?
+                                    Do you conduct HR audits for startups?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We conduct in-person training in Kozhikode, Kochi, and Trivandrum, as well as virtual sessions for remote teams.
+                                    Yes. Our HR audits help startups identify risks early, set up compliant policies, and avoid future disputes.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How can I get started?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Simply call us or fill out our online consultation form. We’ll assess your needs and recommend the best training plan for your business.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>

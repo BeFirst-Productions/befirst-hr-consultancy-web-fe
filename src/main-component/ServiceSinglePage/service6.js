@@ -6,16 +6,16 @@ import SEO from '../../components/seo';
 import ServiceSingleSection6 from '../../components/ServiceSingleSection/service6';
 
 const ServiceSinglePage6 = () => {
-  
+
     return (
         <>
             <SEO
-                title="Staff & Leadership Training in Kerala | Befirst HR & Management Consultancy"
-                description="Boost your team’s productivity and leadership skills with Befirst HR & Management Consultancy. Expert corporate training in Kerala for companies, CEOs, managers, and startups. Serving Kozhikode, Kochi & Trivandrum."
-                keywords={"staff training Kerala, leadership training Kerala, corporate training Kozhikode, management training Kochi, executive coaching Trivandrum, soft skills training Kerala, team building Kerala, C-suite leadership training, business training Kerala, HR consultancy Kozhikode"}
+                title="Quality Assurance & HR Compliance Services in Kerala | Befirst HR Consultancy"
+                description="Befirst HR provides expert Quality Assurance & HR Compliance Services in Kerala. We help businesses in Kozhikode, Kochi & Trivandrum stay legally compliant, reduce risks, and maintain global HR standards."
+                keywords={"Quality Assurance & HR Compliance Services in Kerala, HR compliance Kerala, HR audit Kerala, statutory compliance Kerala, labour law compliance Kerala, HR consultancy Kozhikode, HR consultancy Kochi, HR consultancy Trivandrum, workplace safety compliance Kerala, HR policy review Kerala"}
             />
             <Navbar2 />
-            <PageTitle pageTitle={'Staff & Leadership Training'} pagesub={'Services'} serviceTitle={'Staff & Leadership Training'} />
+            <PageTitle pageTitle={'Quality Assurance & Compliance'} pagesub={'Services'} serviceTitle={'Quality Assurance & Compliance'} />
             <ServiceSingleSection6 />
             <Footer />
             {/* <Scrollbar /> */}

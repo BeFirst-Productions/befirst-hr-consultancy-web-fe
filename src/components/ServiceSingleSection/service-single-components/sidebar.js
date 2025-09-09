@@ -10,11 +10,12 @@ const ServiceSingleSidebar = ({ CTAIMG }) => {
                 <div className="wpo-service-widget widget">
                     <h2>All Services</h2>
                     <ul>
-                        <li><Link to="/service/hr-consulting-services">HR Consulting Services</Link></li>
-                        <li><Link to="/service/management-consultancy">Management Consultancy</Link></li>
-                        <li><Link to="/service/human-capital-development">Human Capital Development</Link></li>
-                        <li><Link to="/service/staff-&-leadership-training">Staff & Leadership Training</Link></li>
-                        <li><Link to="/service/payroll=setup-&-training">Payroll Setup & Training</Link></li>
+                        <li><Link to="/service/hr-operations-&-administration">HR Operations & Administration</Link></li>
+                        <li><Link to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
+                        <li><Link to="/service/learning-&-development">Learning & Development</Link></li>
+                        <li><Link to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
+                        <li><Link to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
+                        <li><Link to="/service/quality-assurance-&-compliance">Talent Acquisition & Onboarding</Link></li>
                         <li><Link to="/service/recruitment-services">Recruitment Services</Link></li>
                     </ul>
                 </div>

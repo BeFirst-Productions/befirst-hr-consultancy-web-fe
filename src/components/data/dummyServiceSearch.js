@@ -47,11 +47,11 @@ export const searchData = [
   },
   {
     id: 3,
-    title: "Human Capital Development",
+    title: "HR Planning & Organization",
     route: "/service-single/3",
     description: "Employee orientation, engagement strategies, retention planning, and culture building programs",
     keywords: [
-      "human capital development",
+      "HR Planning & Organization",
       "employee orientation",
       "employee engagement",
       "retention strategy",

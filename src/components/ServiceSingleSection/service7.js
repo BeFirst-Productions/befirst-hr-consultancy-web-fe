@@ -1,13 +1,13 @@
 import React from 'react'
 import ServiceSingleSidebar from './service-single-components/sidebar'
-import ServiceFAQ6 from './service-single-components/serviceFaq6'
-import Solutions6 from './service-single-components/solution6'
 import ctsImg from "../../images/services/service-cta-6.jpg"
-import WhyChoose6 from './service-single-components/whyChooseUs6'
+import Solutions7 from './service-single-components/solution7'
+import WhyChoose7 from './service-single-components/whyChooseUs7'
+import ServiceFAQ7 from './service-single-components/serviceFaq7'
 
 
 
-const ServiceSingleSection6 = () => {
+const ServiceSingleSection7 = () => {
     const bulletList = {
         paddingLeft: "30px",
         marginBottom: "15px",
@@ -32,21 +32,21 @@ const ServiceSingleSection6 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Quality Assurance & HR Compliance Services in Kerala </h2>
+                                    <h2>Talent Acquisition & Onboarding Services in Kerala  </h2>
                                     <p>
-                                       In today’s competitive business environment, maintaining <strong> HR compliance and quality standards </strong>  is critical for sustainable growth. Non-compliance with Kerala’s labour laws, regulatory requirements, and HR best practices can lead to fines, employee disputes, and reputational damage.
+                                    Finding and retaining the right talent is one of the biggest challenges for businesses today. At <strong> Befirst HR & Management Consultancy, </strong>  we specialize in <strong> Talent Acquisition & Onboarding solutions </strong>  that help companies in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong>  hire the best people and integrate them seamlessly into their organizations.
                                     </p>
                                     <p>
-                                      At <strong> Befirst HR & Management Consultancy, </strong> we provide <strong> Quality Assurance & HR Compliance solutions </strong>  that safeguard your business, ensure smooth operations, and help you adopt global HR practices. Serving <strong> Kozhikode, Kochi, Trivandrum, and across Kerala, </strong>   we ensure your business remains compliant, efficient, and people focused.
+                                     Our expertise ensures that <strong> entrepreneurs, SMEs, corporates, and C-suite leaders </strong> don’t just hire employees but build high-performing teams aligned with their vision and goals
                                     </p>
 
 
                                 </div>
 
                             </div>
-                            <Solutions6 />
-                            <WhyChoose6 />
-                            <ServiceFAQ6 />
+                            <Solutions7 />
+                            <WhyChoose7 />
+                            <ServiceFAQ7 />
                         </div>
                     </div>
                     <ServiceSingleSidebar CTAIMG={ctsImg}/>
@@ -57,4 +57,4 @@ const ServiceSingleSection6 = () => {
     )
 }
 
-export default ServiceSingleSection6;
+export default ServiceSingleSection7;
