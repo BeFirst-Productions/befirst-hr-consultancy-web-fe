@@ -12,9 +12,9 @@ const CareersPage = () => {
     return (
         <>
             <SEO
-                title="Jobs in Calicut & GCC | Befirst HR Careers"
-                description="Explore current job openings or join our talent network. Befirst HR connects professionals with top employers."
-                keywords={"Jobs in Calicut,GCC job vacancies, HR job portal Kerala, careers Kozhikode"}
+                title="HR Jobs in Kerala & India | Careers at Befirst "
+                description="Join Befirst HR & find HR jobs in Kerala and India. Explore career opportunities where passion, talent, and innovation thrive."
+                keywords={"Befirst HR careers, HR jobs in Kerala, HR consultancy jobs India, management consultancy careers, HR opportunities Kerala, join Befirst HR, HR recruitment jobs, careers in HR consultancy, HR talent development jobs"}
             />
             <Navbar2 />
             <PageTitle pageTitle={'Careers'} pagesub={'Careers'} />

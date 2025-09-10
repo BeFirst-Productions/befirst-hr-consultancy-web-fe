@@ -10,9 +10,9 @@ const BlogPage =() => {
     return(
         <>
             <SEO
-                title="HR Insights & Tips | Befirst HR Blog Calicut"
-                description="Stay updated with HR trends, recruitment tips & business insights from Befirst HR experts in Kerala & GCC markets."
-                keywords={"HR blog Kerala,HR tips Calicut, recruitment advice Kerala, payroll insights GCC"}
+                title="HR Consulting Services in Kerala | Befirst "
+                description="Befirst provides expert HR Consulting Services in Kerala, including recruitment, payroll, compliance, and employee management solutions for businesses of all sizes."
+                keywords={"HR Consulting Services in Kerala, Recruitment Consulting Kerala, Payroll Consulting Kerala, HR Compliance Kerala, Employee Management Kerala"}
             />
             <Navbar2/>
             <PageTitle pageTitle={'Articles'} pagesub={'Articles'}/> 

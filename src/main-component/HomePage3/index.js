@@ -22,9 +22,9 @@ const HomePage3 =() => {
     return(
         <>
          <SEO
-                title="HR Consultancy in Calicut | Befirst HR & Management"
-                description="Expert HR, recruitment, payroll & training services for SMEs, startups & corporates in Calicut & GCC. Book a free consultation today."
-                keywords={"HR consultancy Kerala, HR services Kerala,HR Consultancy Calicut,HR services Calicut, HR firm Kerala, HR company Kozhikode"}
+                title="HR Consultancy in Calicut,Kerala | Befirst HR & Management Services"
+                description="Befirst HR is one of the best HR consultancy in Calicut,Kerala, also offers recruitment, payroll & training solutions for SMEs, startups & corporates in Calicut & GCC. Book your free consultation."
+                keywords={"HR Consultancy in Calicut,HR Consultancy in Kerala,HR Services in Calicut"}
             />
             <Navbar2/>
             {/* <Hero3/> */}

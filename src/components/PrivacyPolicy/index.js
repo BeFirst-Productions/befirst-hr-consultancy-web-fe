@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     marginTop: "35px",
     marginBottom: "15px",
     // color: "#0d6efd",
-    color:"black"
+    color: "black"
   };
 
   const bulletList = {

@@ -11,9 +11,9 @@ const ContactPage = () => {
     return (
         <>
             <SEO
-                title="Contact Befirst HR | HR Consultancy Calicut"
-                description="Get in touch with Befirst HR for recruitment, payroll, training & consulting services. Call, email or book online today."
-                keywords={"Contact HR consultancy Calicut,HR company phone Calicut, HR services enquiry Kerala"}
+                title="Top HR Consultancy in Kerala | Contact Us"
+                description="Contact Befirst HR, the Top HR Consultancy in Kerala. We provide HR services, payroll solutions, talent acquisition, and compliance support across Kerala."
+                keywords={"Top HR Consultancy in Kerala, Recruitment Services Kerala, HR Outsourcing Kerala, Employee Training Kerala, Business Consulting Kerala"}
             />
             <Navbar2 />
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact Us'} />

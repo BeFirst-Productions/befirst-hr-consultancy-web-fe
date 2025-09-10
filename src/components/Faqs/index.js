@@ -182,7 +182,7 @@ const FAQs = () => {
                       onMouseEnter={(e) => e.target.style.backgroundColor = '#e9ecef'}
                       onMouseLeave={(e) => e.target.style.backgroundColor = '#f8f9fa'}
                     >
-                      <h6 className="mb-0 fw-semibold text-dark">{item.question}</h6>
+                      <h4 className="mb-0 fw-semibold text-dark">{item.question}</h4>
                       {openItems[index] ? 
                         <ChevronUp className="text-primary" size={18} /> : 
                         <ChevronDown className="text-primary" size={18} />

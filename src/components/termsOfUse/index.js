@@ -4,15 +4,17 @@ import { Container, Row, Col, Card } from "reactstrap";
 const TermsOfUse = () => {
   const sectionTitle = {
     fontWeight: "600",
-    fontSize: "1.1rem",
-    marginTop: "25px",
+    fontSize: "25px",
+    marginTop: "20px",
     marginBottom: "10px",
   };
 
   const bulletList = {
     paddingLeft: "20px",
-    marginBottom: "15px",
+    marginBottom: "20px",
     listStyleType: "disc",
+    fontSize: "20px",
+
   };
 
   return (
@@ -175,11 +177,11 @@ const TermsOfUse = () => {
                     info@befirsthr.com
                   </a>
                 </li>
-                <li>📞 Phone:<a 
-                  href="tel:+919400905954" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        style={{ textDecoration: 'none',  }}
+                <li>📞 Phone:<a
+                  href="tel:+919400905954"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', }}
 
                 > +91 9400905954</a> </li>
                 <li>

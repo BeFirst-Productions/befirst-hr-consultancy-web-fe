@@ -11,9 +11,9 @@ const ServiceSinglePage3 = () => {
     return (
         <>
             <SEO
-                title=" Learning & Development (L&D) Services in Kerala | Befirst HR Consultancy"
-                description="Befirst HR offers expert Learning & Development (L&D) Services in Kerala. We provide employee training, leadership programs, and skill development for businesses in Kozhikode, Kochi & Trivandrum."
-                keywords={"Learning & Development (L&D) Services in Kerala, employee training Kerala, leadership training Kerala, soft skills training Kerala, management training Kerala, HR consultancy Kerala, corporate training Kozhikode, training services Kochi, training consultancy Trivandrum"}
+                title="Learning & Development (L&D) Services in Kerala | Befirst HR"
+                description="Befirst HR offers expert Learning & Development (L&D) Services in Kerala. We provide employee training, leadership programs, and skill development for businesses across Kerala."
+                keywords={"Learning & Development (L&D) Services in Kerala, Learning & Development (L&D) Services in Calicut, leadership training Kerala,HR consultancy Kerala, "}
             />
             <Navbar2 />
             <PageTitle pageTitle={'Learning & Development'} pagesub={'Services'} serviceTitle={'Learning & Development'} />

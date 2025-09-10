@@ -136,7 +136,7 @@ const Blog3CTA = () => {
                   <ArrowRight size={16} className="flex-shrink-0 ms-2" />
                 </a>
                 
-                <a 
+                {/* <a 
                   href="https://www.befirsthrm.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -180,7 +180,7 @@ const Blog3CTA = () => {
                     </div>
                   </div>
                   <ArrowRight size={16} className="flex-shrink-0 ms-2" />
-                </a>
+                </a> */}
               </div>
               
               {/* <div className="text-center mt-3 mt-md-4 pt-3 pt-md-4" style={{ borderTop: '1px solid #f0f0f0' }}>

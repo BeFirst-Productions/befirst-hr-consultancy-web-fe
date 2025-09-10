@@ -37,9 +37,9 @@ const ServiceSinglePage1 = () => {
     return (
         <>
             <SEO
-                title="HR Operations & Administration Services in Kerala | Befirst HR Consultancy"
-                description="Streamline HR operations with Befirst HR – payroll inputs, HRIS, records management, travel, and offboarding services in Kozhikode, Kochi & Trivandrum. Free consultation available!"
-                keywords={"HR operations Kerala, HR administration Kozhikode, HRIS Kochi, payroll inputs Trivandrum, employee data management Kerala, HR compliance Kerala, HR process outsourcing Kerala, HR consultancy Kerala."}
+                title="HR Operations & Administration Services in Kerala | Befirst HR"
+                description="Befirst HR offers trusted HR Operations & Administration Services in Kerala. We help businesses in Kozhikode, Kochi, and Trivandrum streamline ."
+                keywords={"HR Operations & Administration Services in Kerala, HR administration services Kerala, HR services Kozhikode, HR services Kochi, HR services Trivandrum"}
             />
             <Navbar2 />
             <PageTitle pageTitle={'HR Operations & Administration'} pagesub={'Services'} serviceTitle={'HR Operations & Administration'} />

@@ -42,7 +42,7 @@ const About = (props) => {
                                 {/* <div className="signeture"> */}
                                 {/* <span><img src={sign} alt=""/></span> */}
                                 <p className='mb-0 ' style={{ fontSize: '1.5rem' }}><strong>
-                                    Mr. Charummal
+                                    Mr. Abdurahiman Charummal
                                 </strong>
                                 </p>
                                 <p >

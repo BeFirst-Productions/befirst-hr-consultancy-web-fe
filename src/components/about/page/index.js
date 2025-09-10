@@ -12,8 +12,8 @@ const AboutSection = (props) => {
     };
 
     const impactStats = [
-        { number: "40%", label: "Reduced Employee Turnover", description: "Through structured hiring & retention strategies" },
-        { number: "30%", label: "Improved Productivity", description: "Via training & process optimization" },
+        { number: "50%", label: "Reduced Employee Turnover", description: "Through structured hiring & retention strategies" },
+        { number: "100%", label: "Improved Productivity", description: "Via training & process optimization" },
         { number: "100%", label: "Legal Compliance", description: "Full adherence to Kerala & Indian labour laws" },
         { number: "50%", label: "Faster Hiring", description: "Reduced vacancy impact on business performance" }
     ];
@@ -469,7 +469,7 @@ const AboutSection = (props) => {
                                             color: '#495057',
                                             marginBottom: '25px'
                                         }}>
-                                            At the heart of Befirst HRM is <strong style={{ color: '#0062cc' }}>Mr. Abdurahman</strong>, whose four decades of experience in business management, operations, and entrepreneurship form the backbone of our approach.
+                                            At the heart of Befirst HRM is <strong style={{ color: '#0062cc' }}>Mr. Charummal</strong>, whose four decades of experience in business management, operations, and entrepreneurship form the backbone of our approach.
                                         </p>
                                         <ul style={bulletList}>
                                             <li style={bulletItem}>

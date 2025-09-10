@@ -12,9 +12,9 @@ const AboutPage =() => {
     return(
         <>
            <SEO
-                title="About Befirst HR | Leading HR Consultancy in Calicut"
-                description="Learn how Befirst HR helps businesses hire smarter, stay compliant & grow. Trusted HR partner in Kerala & GCC."
-                keywords={"HR Consultancy Calicut,HR experts Calicut, HR solutions Kerala, HR agency Kozhikode"}
+                title="Leading HR Consultancy in Calicut | About Befirst HR "
+                description="Discover Befirst HR, a trusted HR consultancy in Calicut & Kerala. We help businesses with recruitment, payroll, compliance & training to achieve sustainable growth."
+                keywords={" Leading HR consultancy Calicut, HR services Kerala, HR consultancy Kerala, recruitment services Calicut, Befirst HR"}
             />
             <Navbar2/>
             <PageTitle pageTitle={'About Us'} pagesub={'About Us'}/> 

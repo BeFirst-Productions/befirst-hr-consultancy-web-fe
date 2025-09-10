@@ -16,7 +16,7 @@ const BlogSingle3 = (props) => {
         e.preventDefault();
     };
 
-   const bulletList = {
+    const bulletList = {
         paddingLeft: "20px",
         marginBottom: "15px",
         listStyleType: "disc",
@@ -159,7 +159,7 @@ const BlogSingle3 = (props) => {
 
                                     <h3>Ready to avoid payroll mistakes?</h3>
                                     <p>Don’t let payroll errors slow down your business growth.</p>
-{/* 
+                                    {/* 
                                     <blockquote>
                                         <h3>Contact Befirst HR & Management Consultancy today — Your trusted HR partner in Calicut.</h3>
                                         <br />
@@ -185,7 +185,7 @@ const BlogSingle3 = (props) => {
                                         </p>
                                     </blockquote> */}
 
-<Blog3CTA/>
+                                    <Blog3CTA />
                                 </div>
 
                                 {/* Author box */}

@@ -32,10 +32,10 @@ import toast from 'react-hot-toast';
 
 🏢 *Enquiry Source:* Website Chatbot
 
-📋 *Service Interest:* Premium HR Solutions
+📋 *Service Interest:* HR Solutions
 
 ---
-*This enquiry was generated from our premium website chatbot.*`;
+*This enquiry was generated from our website chatbot.*`;
   };
 
   const handleSubmit = (e) => {
@@ -200,7 +200,7 @@ import toast from 'react-hot-toast';
           border-radius: 8px;
           border: 1px solid rgba(255, 255, 255, 0.1);
           background: rgba(255, 255, 255, 0.05);
-          color: white;
+          color: black;
           font-size: 0.95rem;
           transition: all 0.3s ease;
         }

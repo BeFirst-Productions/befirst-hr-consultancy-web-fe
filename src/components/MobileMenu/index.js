@@ -53,24 +53,44 @@ const menus = [
 {
     id: 3,
         title: 'Services',
-        link: '/service',
-        // submenu: [
-        //     {
-        //         id: 31,
-        //         title: 'Service',
-        //         link: '/service'
-        //     },
-        //     {
-        //         id: 32,
-        //         title: 'Service style 2',
-        //         link: '/service-s2'
-        //     },
-        //     {
-        //         id: 33,
-        //         title: 'Service Single',
-        //         link: '/service-single'
-        //     }
-        // ]
+        // link: '/service',
+        submenu: [
+            {
+                id: 31,
+                title: 'HR Operations & Administration',
+                link: '/service/hr-operations-&-administration'
+            },
+            {
+                id: 32,
+                title: 'HR Planning & Organization',
+                link: '/service/hr-planning-&-organization'
+            },
+            {
+                id: 33,
+                title: 'Learning & Development',
+                link: '/service/learning-&-development'
+            },
+            {
+                id: 34,
+                title: 'Payroll & Compensation',
+                link: '/service/payroll-&-compensation'
+            },
+            {
+                id: 35,
+                title: 'Recruitment Services',
+                link: '/service/recruitment-services'
+            },
+            {
+                id: 36,
+                title: 'Quality Assurance & Compliance',
+                link: '/service/quality-assurance-&-compliance'
+            },
+            {
+                id: 37,
+                title: 'Talent Acquisition & Onboarding',
+                link: '/service/talent-acquisition-&-Onboarding '
+            },
+        ]
     },
     {
     id: 4,

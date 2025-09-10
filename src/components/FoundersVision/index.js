@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Award, Users, Globe, TrendingUp, Target, Heart, Zap, Brain } from 'lucide-react';
+import { Award, Users, Globe, TrendingUp, Target, Heart, Zap, Brain, BookOpen, CheckCircle2 } from 'lucide-react';
 import img1 from '../../images/about2/founderImg.png'; // Update with the correct path to your image
 
 const FoundersVision = () => {
@@ -102,9 +102,21 @@ const FoundersVision = () => {
         color: #3b82f6;
       }
       
+      /* Premium Story Section Styles */
       .story-section {
-        padding: 100px 0;
-        background: white;
+        padding: 120px 0 60px 0;
+        background: #ffffff;
+        position: relative;
+      }
+      
+      .story-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent 0%, #e2e8f0 20%, #cbd5e1 50%, #e2e8f0 80%, transparent 100%);
       }
       
       .section-title {
@@ -113,45 +125,282 @@ const FoundersVision = () => {
         color: #1e293b;
         margin-bottom: 20px;
         line-height: 1.2;
+        letter-spacing: -0.02em;
       }
       
       .section-subtitle {
         font-size: 1.3rem;
         color: #64748b;
-        margin-bottom: 8px;
+        margin-bottom: 80px;
         font-weight: 400;
         line-height: 1.6;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
       }
       
       .story-content {
-        font-size: 1.2rem;
+        font-size: 1.125rem;
         line-height: 1.8;
         color: #475569;
-        margin-bottom: 40px;
       }
       
-      .story-content p {
-        margin-bottom: 30px;
+      .story-paragraph {
+        margin-bottom: 32px;
+        text-align: justify;
+        position: relative;
+      }
+      
+      .story-paragraph:first-child::first-letter {
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: #3b82f6;
+        float: left;
+        line-height: 1;
+        margin: 8px 12px 0 0;
+        font-family: serif;
+      }
+      
+      .credentials-highlight {
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        border: 1px solid #e2e8f0;
+        border-left: 4px solid #3b82f6;
+        border-radius: 8px;
+        padding: 28px 32px;
+        margin: 48px 0;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .credentials-highlight::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, transparent 70%);
+        border-radius: 50%;
+        transform: translate(30px, -30px);
+      }
+      
+      .credentials-content {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        color: #1e40af;
+        font-weight: 500;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+      }
+      
+      .expertise-showcase {
+        background: #fafafa;
+        border-radius: 16px;
+        padding: 48px 40px;
+        margin: 64px 0;
+        border: 1px solid #f1f5f9;
+      }
+      
+      .expertise-title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 32px;
+        text-align: center;
+        position: relative;
+      }
+      
+      .expertise-title::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 2px;
+        background: #3b82f6;
+        border-radius: 1px;
+      }
+      
+      .expertise-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+        margin-top: 40px;
+      }
+      
+      .expertise-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 32px 24px;
+        transition: all 0.3s ease;
+        position: relative;
+        text-align: center;
+      }
+      
+      .expertise-card:hover {
+        border-color: #3b82f6;
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(59, 130, 246, 0.08);
+      }
+      
+      .expertise-icon {
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(135deg, #3b82f6, #1e40af);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 16px;
+        color: white;
+      }
+      
+      .expertise-label {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin: 0;
       }
       
       .highlight-text {
         background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-        padding: 30px;
-        border-left: 5px solid #3b82f6;
-        border-radius: 0 15px 15px 0;
-        margin: 40px 0;
+        padding: 40px;
+        border-radius: 12px;
+        margin: 56px 0;
+        position: relative;
+        border: 1px solid #bfdbfe;
+      }
+      
+      .highlight-text::before {
+        content: '"';
+        font-size: 6rem;
+        color: #93c5fd;
+        position: absolute;
+        top: 12px;
+        left: 24px;
+        font-family: serif;
+        line-height: 1;
+        opacity: 0.7;
+      }
+      
+      .highlight-content {
         font-size: 1.25rem;
         line-height: 1.7;
         color: #1e40af;
         font-weight: 500;
+        margin: 0;
+        padding-left: 48px;
+        position: relative;
+        z-index: 2;
+        font-style: italic;
+      }
+      
+      /* Impact Metrics - Single Row Design */
+      .impact-metrics {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 16px;
+        margin: 40px 0;
+        padding: 0;
+        width: 100%;
+      }
+      
+      .metric-item {
+        flex: 1;
+        text-align: center;
+        padding: 28px 16px;
+        background: white;
+        border: 1px solid #f1f5f9;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        min-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .metric-item:hover {
+        border-color: #3b82f6;
+        box-shadow: 0 8px 30px rgba(59, 130, 246, 0.1);
+        transform: translateY(-2px);
+      }
+      
+      .metric-number {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #3b82f6;
+        display: block;
+        margin-bottom: 8px;
+        line-height: 1;
+      }
+      
+      .metric-label {
+        font-size: 1rem;
+        color: #64748b;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        line-height: 1.2;
+      }
+      
+      .closing-statement {
+        background: #326CDF;
+        color: white;
+        border-radius: 16px;
+        padding: 56px 48px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .closing-statement::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
+        animation: rotate 20s linear infinite;
+      }
+      
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      .closing-content {
+        font-size: 1.3rem;
+        line-height: 1.7;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+        font-weight: 400;
+        color: white;
+      }
+
+            @media (max-width: 767px) {
+        .closing-content {
+           font-size: 1rem;
+        line-height: 1.5;
+        }
+  }
+      
+      .closing-highlight {
+        color: #60a5fa;
+        font-weight: 600;
       }
       
       .bringing-expertise-section {
         background: #fafafa;
-        padding: 20px 0 100px 0;
+        padding: 20px 0 70px 0;
       }
       
-      .expertise-grid {
+      .expertise-grid-old {
         margin-top: 60px;
       }
       
@@ -184,11 +433,6 @@ const FoundersVision = () => {
         font-size: 1.1rem;
         line-height: 1.6;
         margin-bottom: 0;
-      }
-      
-      .expertise-icon {
-        margin-right: 15px;
-        color: #3b82f6;
       }
       
       .mission-section {
@@ -265,6 +509,40 @@ const FoundersVision = () => {
         color: #64748b;
       }
       
+      /* Responsive Design for Impact Metrics */
+      @media (max-width: 1200px) {
+        .metric-item {
+          padding: 24px 12px;
+        }
+        
+        .metric-number {
+          font-size: 2.5rem;
+        }
+        
+        .metric-label {
+          font-size: 0.95rem;
+        }
+      }
+      
+      @media (max-width: 992px) {
+        .impact-metrics {
+          gap: 12px;
+        }
+        
+        .metric-item {
+          padding: 20px 8px;
+          min-height: 100px;
+        }
+        
+        .metric-number {
+          font-size: 2.2rem;
+        }
+        
+        .metric-label {
+          font-size: 0.9rem;
+        }
+      }
+      
       @media (max-width: 768px) {
         .founder-hero {
           padding: 80px 0;
@@ -277,13 +555,99 @@ const FoundersVision = () => {
         .section-title {
           font-size: 2.4rem;
         }
-        
+
+              @media (max-width: 767px) {
+        .section-title{
+          font-size: 2rem;
+        }
         .story-section, .bringing-expertise-section, .mission-section {
           padding: 70px 0;
         }
         
         .expertise-item {
           margin-bottom: 20px;
+        }
+        
+        .story-paragraph:first-child::first-letter {
+          font-size: 3.5rem;
+          margin: 4px 8px 0 0;
+        }
+        
+        .credentials-highlight,
+        .expertise-showcase,
+        .closing-statement {
+          padding: 32px 24px;
+        }
+        
+        .highlight-text {
+          padding: 32px 24px;
+        }
+        
+        .highlight-content {
+          padding-left: 32px;
+        }
+        
+        .expertise-grid {
+          grid-template-columns: 1fr;
+        }
+        
+        .impact-metrics {
+          gap: 8px;
+        }
+        
+        .metric-item {
+          padding: 18px 6px;
+          min-height: 90px;
+        }
+        
+        .metric-number {
+          font-size: 1.8rem;
+        }
+        
+        .metric-label {
+          font-size: 0.8rem;
+          line-height: 1.1;
+        }
+      }
+      
+      @media (max-width: 576px) {
+        .impact-metrics {
+          flex-direction: column;
+          gap: 12px;
+        }
+        
+        .metric-item {
+          padding: 20px;
+          min-height: 80px;
+        }
+        
+        .metric-number {
+          font-size: 2.2rem;
+          margin-bottom: 4px;
+        }
+        
+        .metric-label {
+          font-size: 0.9rem;
+          line-height: 1.2;
+        }
+      }
+      
+      @media (max-width: 400px) {
+        .impact-metrics {
+          gap: 8px;
+        }
+        
+        .metric-item {
+          padding: 16px;
+          min-height: 70px;
+        }
+        
+        .metric-number {
+          font-size: 1.8rem;
+        }
+        
+        .metric-label {
+          font-size: 0.8rem;
         }
       }
     `;
@@ -293,6 +657,15 @@ const FoundersVision = () => {
       document.head.removeChild(style);
     };
   }, []);
+
+  const expertiseAreas = [
+    { icon: <Target size={24} />, label: "Strategic HR Leadership" },
+    { icon: <Users size={24} />, label: "Organizational Development" },
+    { icon: <Globe size={24} />, label: "Multinational Operations" },
+    { icon: <Award size={24} />, label: "Quality Management" },
+    { icon: <BookOpen size={24} />, label: "Process Excellence" },
+    { icon: <CheckCircle2 size={24} />, label: "Performance Systems" }
+  ];
 
   return (
     <div className="founder-page">
@@ -306,16 +679,20 @@ const FoundersVision = () => {
                   {/* Replace this div with your actual image */}
                   <img
                     src={img1}
-                    alt="Mr. Charummal"
+                    alt="Mr. Abdurahiman Charummal - Founder and Principal Consultant of BeFirst HR Solutions"
+                    title="Mr. Abdurahiman Charummal - Founder and Principal Consultant"
+                    loading="lazy"
+                    width="600"
+                    height="400"
                     className="img-fluid"
                   />
                 </div>
                 <div className="text-center mt-4">
-                  <h3 style={{ fontSize: '2rem', fontWeight: '700', color: '#1e293b', marginBottom: '8px' }}>
-                    Mr. Charummal
+                  <h3 style={{ fontSize: '1.7rem', fontWeight: '700', color: '#1e293b', marginBottom: '8px' }}>
+                    Mr. Abdurahiman Charummal
                   </h3>
-                  <p style={{ fontSize: '1.2rem', color: '#64748b', fontWeight: '500', marginBottom: '0' }}>
-                    Founder & CEO
+                  <p style={{ fontSize: '1.1rem', color: '#64748b', fontWeight: '500', marginBottom: '0' }}>
+                    Founder and Principal Consultant
                   </p>
                 </div>
               </div>
@@ -345,58 +722,97 @@ const FoundersVision = () => {
                   </div>
                 </div>
 
-                <Row className="stats-row">
-                  <Col sm={3} xs={6}>
-                    <div className="stat-item">
-                      <span className="stat-number">40+</span>
-                      <span className="stat-label">Years</span>
-                    </div>
-                  </Col>
-                  <Col sm={3} xs={6}>
-                    <div className="stat-item">
-                      <span className="stat-number">10K+</span>
-                      <span className="stat-label">Employees</span>
-                    </div>
-                  </Col>
-                  <Col sm={3} xs={6}>
-                    <div className="stat-item">
-                      <span className="stat-number">2</span>
-                      <span className="stat-label">Major Corps</span>
-                    </div>
-                  </Col>
-                  <Col sm={3} xs={6}>
-                    <div className="stat-item">
-                      <span className="stat-number">∞</span>
-                      <span className="stat-label">Impact</span>
-                    </div>
-                  </Col>
-                </Row>
+                <div className="impact-metrics">
+                  <div className="metric-item">
+                    <span className="metric-number">40+</span>
+                    <span className="metric-label">Years</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-number">10K+</span>
+                    <span className="metric-label">Employees</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-number">2</span>
+                    <span className="metric-label">Major Corps</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-number">∞</span>
+                    <span className="metric-label">Impact</span>
+                  </div>
+                </div>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
+      {/* Hero Section End*/}
 
-      {/* Story Section */}
+      {/* Premium Story Section */}
       <section className="story-section">
         <Container>
           <Row>
             <Col lg={12}>
               <div className="text-center mb-5">
                 <h2 className="section-title">Our Founder's Story</h2>
-                <p className="section-subtitle">A visionary leader with unparalleled experience in global energy and utilities management</p>
+                <p className="section-subtitle">
+                  A visionary leader with unparalleled experience in global energy and utilities management
+                </p>
               </div>
             </Col>
           </Row>
+
           <Row>
             <Col lg={10} className="mx-auto">
               <div className="story-content">
-                <p>
-                  With an illustrious career spanning <strong>over 40 years</strong>, Mr. Charummal stands as a beacon of leadership and expertise in the corporate world. Having held <strong>key executive roles at Qatar Energy and Kahramaa (Qatar General Water and Electricity Corporation)</strong>, he has been at the helm of some of the most complex, high-impact operations in the Middle East.
+                <p className="story-paragraph">
+                  Mr. Abdurahman Charummal, Co-Founder and Principal Consultant of BeFirst HR & Management Consultancy,
+                  brings over 40 years of exemplary experience in human resources, administration, and organizational development.
+                  A seasoned professional with a postgraduate degree in Public Administration and multiple certifications including
+                  a Diploma in Human Resource Management and Diploma in Arabic Mr. Charummal has served in prestigious government entities
+                  in Qatar, such as Qatar Energy and Kahramaa, across multi-cultural and high-performance environments.
+                </p>
+
+                <p className="story-paragraph">
+                  Renowned for his leadership in HR transformation, process improvement, and quality management, he has overseen several
+                  high-impact projects focused on employee development, policy frameworks, recruitment strategy, and performance systems.
+                  He is widely recognized for his contributions to standardizing HR practices in both corporate and non-profit sectors,
+                  including educational institutions and community organizations across the GCC and India.
+                </p>
+
+                <div className="credentials-highlight">
+                  <p className="credentials-content">
+                    Mr. Charummal is bilingual in English and Arabic, with near-native fluency, and has consistently earned excellence awards
+                    and performance accolades throughout his career. He has attended numerous professional courses in HRM, quality auditing, and
+                    behavioral management, and remains an active member of international management and academic organizations.
+                  </p>
+                </div>
+
+                <p className="story-paragraph">
+                  Beyond corporate impact, his philanthropic involvement reflects his deep commitment to empowering communities and creating lasting
+                  value through knowledge, ethics, and strategic thinking. His mission at BeFirst is clear: to redefine HR consultancy for Kerala's SMEs
+                  and startups, helping them become future-ready with people-centric systems and smart, scalable strategies.
                 </p>
 
                 <div className="highlight-text">
-                  Leading multinational corporations with more than 10,000 employees, Mr. Charummal mastered the art of people management, organizational development, and strategic growth on a massive scale. His proven ability to drive operational excellence, nurture talent, and build resilient teams in a multi-cultural environment has earned him respect across industries and geographies.
+                  <p className="highlight-content">
+                    Leading multinational corporations with more than 10,000 employees, Mr. Charummal mastered the art of people management, organizational
+                    development, and strategic growth on a massive scale. His proven ability to drive operational excellence, nurture talent, and build resilient
+                    teams in a multi-cultural environment has earned him respect across industries and geographies.
+                  </p>
+                </div>
+
+                <div className="expertise-showcase">
+                  <h3 className="expertise-title">Core Areas of Expertise</h3>
+                  <div className="expertise-grid">
+                    {expertiseAreas.map((area, index) => (
+                      <div key={index} className="expertise-card">
+                        <div className="expertise-icon">
+                          {area.icon}
+                        </div>
+                        <p className="expertise-label">{area.label}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </Col>
@@ -427,7 +843,7 @@ const FoundersVision = () => {
                 </p>
               </div>
 
-              <div className="expertise-grid">
+              <div className="expertise-grid-old">
                 <h3 className="text-center mb-5" style={{ fontSize: '2.5rem', color: '#1e3a8a', fontWeight: '700' }}>
                   Why Mr. Charummal is a Major Asset to Befirst HRM
                 </h3>
@@ -435,25 +851,25 @@ const FoundersVision = () => {
                 <Row>
                   <Col md={6} className="mb-4">
                     <div className="expertise-item">
-                      <h4><Target className="expertise-icon" size={28} />Strategic Vision</h4>
+                      <h4><Target className="experience-icon" size={28} />Strategic Vision</h4>
                       <p>Proven ability to align HR with business objectives in complex environments.</p>
                     </div>
                   </Col>
                   <Col md={6} className="mb-4">
                     <div className="expertise-item">
-                      <h4><Heart className="expertise-icon" size={28} />People-Centric Leadership</h4>
+                      <h4><Heart className="experience-icon" size={28} />People-Centric Leadership</h4>
                       <p>Expertise in building diverse, motivated, and high-performing teams.</p>
                     </div>
                   </Col>
                   <Col md={6} className="mb-4">
                     <div className="expertise-item">
-                      <h4><Zap className="expertise-icon" size={28} />Operational Excellence</h4>
+                      <h4><Zap className="experience-icon" size={28} />Operational Excellence</h4>
                       <p>Skilled in streamlining processes to improve efficiency and productivity.</p>
                     </div>
                   </Col>
                   <Col md={6} className="mb-4">
                     <div className="expertise-item">
-                      <h4><Brain className="expertise-icon" size={28} />Cultural Intelligence</h4>
+                      <h4><Brain className="experience-icon" size={28} />Cultural Intelligence</h4>
                       <p>Navigates global corporate frameworks while embracing local nuances.</p>
                     </div>
                   </Col>
@@ -469,10 +885,10 @@ const FoundersVision = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <div className="mission-content">
-                <h2 className="section-title mb-4">A Partner in Your Growth Journey</h2>
-                <p className="lead" style={{ fontSize: '1.4rem', lineHeight: '1.7', color: '#64748b' }}>
-                  At Befirst HR, Mr. Charummal leads a dedicated team committed to transforming HR from a business cost to a growth catalyst. His story is not just about decades of leadership — it's about <strong style={{ color: '#1e293b' }}>bringing that leadership to you</strong>, to help your business attract the right talent, develop effective teams, and scale sustainably in today's competitive markets.
+              <div className="closing-statement">
+                <h2 className="section-title mb-4 text-white">A Partner in Your Growth Journey</h2>
+                <p className="lead closing-content" >
+                  At Befirst HR, Mr. Charummal leads a dedicated team committed to transforming HR from a business cost to a growth catalyst. His story is not just about decades of leadership — it's about <strong style={{ color: 'white' }}>bringing that leadership to you</strong>, to help your business attract the right talent, develop effective teams, and scale sustainably in today's competitive markets.
                 </p>
               </div>
             </Col>

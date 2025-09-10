@@ -72,7 +72,7 @@
   right: 24px;
   z-index: 1040;
   width: 400px;
-  height: 600px;
+  height: 400px;
   animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -42,7 +42,7 @@ const ServiceSingleSection2 = () => {
                                         (Kozhikode, Kochi, Trivandrum, and beyond) streamline their HR framework with globally aligned practices.
                                     </p>
                                     <p>
-                                        Our <strong> HR Planning & Organization services </strong> ensure your business has the <strong> right people, policies, and processes  </strong> in place to scale sustainably while 
+                                        Our <strong> HR Planning & Organization services </strong> ensure your business has the <strong> right people, policies, and processes  </strong> in place to scale sustainably while
                                         reducing risks and maximizing performance.
                                     </p>
                                 </div>

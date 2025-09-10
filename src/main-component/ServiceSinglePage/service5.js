@@ -12,9 +12,9 @@ const ServiceSinglePage5 = () => {
     return (
         <>
             <SEO
-                title="Recruitment Agency in Kerala | Befirst HR & Management Consultancy – Kozhikode, Kochi, Trivandrum"
-                description="Befirst HR & Management Consultancy offers professional recruitment services in Kerala for startups, SMEs, and corporates. Find the right talent fast in Kozhikode, Kochi, and Trivandrum."
-                keywords={"recruitment agency Kerala, recruitment agency Kozhikode, recruitment agency Kochi, recruitment agency Trivandrum, best recruitment agency Kerala, manpower consultancy Kerala, executive search Kerala, hiring agency Kerala, staffing agency Kerala, HR consultancy Kerala"}
+                title="Recruitment Services in Kerala | Befirst HR Consultancy"
+                description="Befirst HR Consultancy offers expert recruitment services in Kerala, providing trusted manpower services, staffing solutions, and HR outsourcing to help businesses hire the right talent."
+                keywords={"recruitment services in Kerala, manpower services in Kerala, staffing solutions in Kerala, HR outsourcing in Kerala"}
             />
             <Navbar2 />
             <PageTitle pageTitle={'Recruitment Services'} pagesub={'Services'} serviceTitle={'Recruitment Services'} />

@@ -27,7 +27,7 @@ const ProfessionalBanner = () => {
 
   const achievements = [
     { number: "500+", text: "Successful Placements", icon: Target },
-    { number: "98%", text: "Client Satisfaction", icon: Star },
+    { number: "100%", text: "Client Satisfaction", icon: Star },
     { number: "50+", text: "Corporate Partners", icon: Shield },
     { number: "5+", text: "Years Excellence", icon: Award }
   ];
@@ -171,7 +171,7 @@ const ProfessionalBanner = () => {
         style={{ 
           paddingTop: '20px', 
           paddingBottom: '120px', 
-          zIndex: 10,
+          zIndex: 1,
           paddingLeft: 'clamp(0px, 5vw, 80px)',
           paddingRight: 'clamp(20px, 5vw, 80px)'
         }}

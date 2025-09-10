@@ -10,9 +10,9 @@ const ServiceSinglePage7 = () => {
     return (
         <>
             <SEO
-                title="Talent Acquisition & Onboarding Services in Kerala | Befirst HR Consultancy"
-                description="Befirst HR offers expert Talent Acquisition & Onboarding Services in Kerala. We help businesses in Kozhikode, Kochi & Trivandrum hire top talent, streamline recruitment, and ensure smooth employee integration."
-                keywords={"Talent Acquisition & Onboarding Services in Kerala, recruitment services Kerala, onboarding solutions Kerala, HR consultancy Kozhikode, HR consultancy Kochi, HR consultancy Trivandrum, employee onboarding Kerala, talent management Kerala, hiring services Kerala"}
+                title="Talent Acquisition Services in Kerala | Befirst HR"
+                description="Befirst HR provides Talent Acquisition Services in Kerala, helping businesses in Kozhikode, Kochi, and Trivandrum hire the right talent and ensure smooth onboarding."
+                keywords={"Talent Acquisition Services in Kerala, recruitment services Kerala, onboarding solutions Kerala, HR consultancy Kozhikode, HR consultancy Kochi"}
             />
             <Navbar2 />
             <PageTitle pageTitle={'Talent Acquisition & Onboarding'} pagesub={'Services'} serviceTitle={'Talent Acquisition & Onboarding'} />
