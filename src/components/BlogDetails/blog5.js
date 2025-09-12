@@ -34,11 +34,25 @@ const BlogSingle5 = (props) => {
 
     return (
         <>
-           <SEO
-                title="How to Choose the Right HR Consultancy in Calicut | Befirst HR "
+            <SEO
+                title="How to Choose the Right HR Consultancy in Calicut | Befirst HR"
                 description="Looking for the best HR consultancy in Calicut? Befirst HR Consultancy offers recruitment, payroll, training, and compliance services tailored for Kerala businesses."
-                keywords={"HR consultancy in Calicut,Befirst HR Consultancy,HR services in Calicut,HR solutions in Kerala"}
+                keywords={"HR consultancy in Calicut, Befirst HR Consultancy, HR services in Calicut, HR solutions in Kerala"}
+                ogTitle="How to Choose the Right HR Consultancy in Calicut | Befirst HR"
+                ogDescription="Looking for the best HR consultancy in Calicut? Befirst HR Consultancy offers recruitment, payroll, training, and compliance services tailored for Kerala businesses."
+                ogUrl="https://www.befirsthr.com/hr-consultancy-calicut"
+                ogType="article"
+                ogImage="https://www.befirsthr.com/images/hr-consultancy-calicut.jpg"
+                ogLocale="en_IN"
+                articleTags={[
+                    "HR consultancy in Calicut",
+                    "Befirst HR Consultancy",
+                    "HR services in Calicut",
+                    "HR solutions in Kerala"
+                ]}
+                canonical="https://www.befirsthr.com/hr-consultancy-calicut"
             />
+
             <Navbar2 />
             <PageTitle pageTitle={'Article Details'} pagesub1={'Articles'} pagesub2={'Article Details'} />
             <section className="wpo-blog-single-section section-padding">

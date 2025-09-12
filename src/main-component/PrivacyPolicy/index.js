@@ -12,8 +12,23 @@ const PrivacyPolicyPage = () => {
       <SEO
         title="Best HR Consultancy in Kerala | Privacy Policy"
         description="Read Privacy Policy of Be First HR, the Best HR Consultancy in Kerala. Learn how we collect, use, and protect your information."
-        keywords={"Best HR Consultancy in Kerala,Befirst HR Privacy Policy,HR Services Data Protection,HR Consultancy Legal Policy Kerala,Management Consultancy Privacy Terms"}
+        keywords={"Best HR Consultancy in Kerala, Befirst HR Privacy Policy, HR Services Data Protection, HR Consultancy Legal Policy Kerala, Management Consultancy Privacy Terms"}
+        ogTitle="Best HR Consultancy in Kerala | Privacy Policy"
+        ogDescription="Read Privacy Policy of Be First HR, the Best HR Consultancy in Kerala. Learn how we collect, use, and protect your information."
+        ogUrl="https://www.befirsthr.com/privacy-policy"
+        ogType="website"
+        ogImage="https://www.befirsthr.com/assets/images/privacy-policy.jpg"
+        ogLocale="en_IN"
+        articleTags={[
+          "Best HR Consultancy in Kerala",
+          "Befirst HR Privacy Policy",
+          "HR Services Data Protection",
+          "HR Consultancy Legal Policy Kerala",
+          "Management Consultancy Privacy Terms"
+        ]}
+        canonical="https://www.befirsthr.com/privacy-policy"
       />
+
       <Navbar2 />
       <PageTitle pageTitle={'Privacy Policy'} pagesub={'Privacy Policy'} />
       <PrivacyPolicy />

@@ -12,8 +12,23 @@ const ServiceSinglePage6 = () => {
             <SEO
                 title="HR Compliance Services in Kerala | Befirst HR"
                 description="Befirst HR provides expert Quality Assurance & HR Compliance Services in Kerala. We help businesses in Kozhikode, Kochi & Trivandrum stay legally compliant, reducing risks."
-                keywords={"HR compliance services Kerala, Statutory compliance for businesses, Labour law compliance Kerala, HR audit services Kerala, Employee compliance solutions Kerala"}
+                keywords="HR compliance services Kerala, Statutory compliance for businesses, Labour law compliance Kerala, HR audit services Kerala, Employee compliance solutions Kerala"
+                ogTitle="HR Compliance Services in Kerala | Befirst HR"
+                ogDescription="Befirst HR provides expert Quality Assurance & HR Compliance Services in Kerala. We help businesses in Kozhikode, Kochi & Trivandrum stay legally compliant, reducing risks."
+                ogUrl="https://www.befirsthr.com/hr-compliance-services"
+                ogType="website"
+                ogImage="https://www.befirsthr.com/images/hr-compliance-og.jpg"
+                ogLocale="en_IN"
+                articleTags={[
+                    "HR compliance services Kerala",
+                    "Statutory compliance for businesses",
+                    "Labour law compliance Kerala",
+                    "HR audit services Kerala",
+                    "Employee compliance solutions Kerala"
+                ]}
+                canonical="https://www.befirsthr.com/hr-compliance-services"
             />
+
             <Navbar2 />
             <PageTitle pageTitle={'Quality Assurance & Compliance'} pagesub={'Services'} serviceTitle={'Quality Assurance & Compliance'} />
             <ServiceSingleSection6 />

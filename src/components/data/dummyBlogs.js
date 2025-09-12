@@ -8,15 +8,15 @@ import blog5 from '../../images/blog/blog-868x514-5.jpg';
 export const blogs = [
     {
       blogImg: blog1,
-      title: 'How SMEs Can Build a Strong Employer Brand in Kerala',
-      description: 'Discover strategies for SMEs in Kerala to enhance their employer brand, attract top talent, and foster a positive workplace culture.',
+      title: 'Why Choose a Leading HR Consultancy in Calicut, Kerala?',
+      description: 'Running a business in today’s competitive environment requires more than just good products and services. It demands',
       time: '13 AUG, 21',
       link: '/blogs/blog1/blog-details',
     },
     {
       blogImg: blog2,
-      title: 'Why Outsourcing Recruitment Can Save You Time & Money – Benefits of Recruitment Outsourcing in Kerala',
-      description: 'Learn how recruitment outsourcing helps Kerala SMEs save time, cut costs, and attract the right talent.',
+      title: 'Recruitment Outsourcing in Kerala: Why SMEs Should Consider It',
+      description: 'Recruitment is often one of the most time-consuming and costly processes for businesses. For small and medium',
 
       time: '14 AUG, 21',
       link: '/blogs/blog2/blog-details',
@@ -24,7 +24,7 @@ export const blogs = [
     {
       blogImg: blog3,
       title: 'Top 10 Payroll Mistakes SMEs in Kerala Must Avoid',
-      description: 'Discover the top payroll mistakes Kerala SMEs must avoid to stay compliant, accurate, and stress-free.',
+      description: 'Managing payroll is one of the most challenging aspects for small and medium enterprises (SMEs) in Kerala.',
 
       time: '15 AUG, 21',
       link: '/blogs/blog3/blog-details',
@@ -32,7 +32,7 @@ export const blogs = [
     {
       blogImg: blog4,
       title: 'The Complete Guide to HR Compliance in Kerala',
-      description: 'A simple HR compliance guide to help Kerala SMEs stay compliant, avoid risks, and run smoothly.',
+      description: 'Running a business in Kerala is not only about offering good products or services. It also means',
 
       time: '15 AUG, 21',
       link: '/blogs/blog4/blog-details',
@@ -40,7 +40,7 @@ export const blogs = [
     {
       blogImg: blog5,
       title: 'How to Choose the Right HR Consultancy in Calicut',
-      description: 'Guide for Kerala SMEs to choose the right HR consultancy in Calicut to reduce turnover and hiring mistakes.',
+      description: 'Finding and keeping the right talent is one of the biggest challenges for small and medium businesses in Kerala.',
 
       time: '15 AUG, 21',
       link: '/blogs/blog5/blog-details',

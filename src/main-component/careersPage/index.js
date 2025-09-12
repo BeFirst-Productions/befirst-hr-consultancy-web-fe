@@ -12,10 +12,25 @@ const CareersPage = () => {
     return (
         <>
             <SEO
-                title="HR Jobs in Kerala & India | Careers at Befirst "
+                title="HR Jobs in Kerala & India | Careers at Befirst"
                 description="Join Befirst HR & find HR jobs in Kerala and India. Explore career opportunities where passion, talent, and innovation thrive."
-                keywords={"Befirst HR careers, HR jobs in Kerala, HR consultancy jobs India, management consultancy careers, HR opportunities Kerala, join Befirst HR, HR recruitment jobs, careers in HR consultancy, HR talent development jobs"}
+                keywords="Befirst HR careers, HR jobs in Kerala, HR consultancy jobs India, management consultancy careers, HR opportunities Kerala, join Befirst HR, HR recruitment jobs, careers in HR consultancy, HR talent development jobs"
+                ogTitle="HR Jobs in Kerala & India | Careers at Befirst"
+                ogDescription="Join Befirst HR & explore HR jobs in Kerala and India. Discover career opportunities where passion, talent, and innovation thrive."
+                ogUrl="https://www.befirsthr.com/careers"
+                ogType="website"
+                ogImage="https://www.befirsthr.com/images/careers-og.jpg"
+                ogLocale="en_IN"
+                articleTags={[
+                    "Befirst HR careers",
+                    "HR jobs in Kerala",
+                    "HR consultancy jobs India",
+                    "Careers in HR consultancy",
+                    "HR recruitment jobs"
+                ]}
+                canonical="https://www.befirsthr.com/careers"
             />
+
             <Navbar2 />
             <PageTitle pageTitle={'Careers'} pagesub={'Careers'} />
             <Careers />
