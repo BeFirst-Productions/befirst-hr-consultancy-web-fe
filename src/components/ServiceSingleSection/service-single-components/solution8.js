@@ -1,16 +1,14 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const Solutions5 = () => {
+const Solutions8 = () => {
     return (
         <section className="solutions-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Why Choose Befirst Recruitment Assistance?</h2>
-                        {/* <p className="lead text-muted">
-We offer specialized consultancy services to ensure your business runs at its full potential:                            
-</p> */}
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Our HR Policy & Procedure Services</h2>
+
                     </div>
                 </div>
 
@@ -22,9 +20,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Local Market Expertise</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Policy Framework Development</h5>
                                     <p className="text-muted mb-0">
-                                        Deep understanding of Kerala’s job market and industry demands.
+                                        Custom-designed <strong> HR policies in Kerala  </strong>covering recruitment, leave, promotions, compensation, and termination.
                                     </p>
 
                                 </div>
@@ -36,9 +34,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Fast & Efficient Hiring </h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Code of Conduct & Workplace Guidelines</h5>
                                     <p className="text-muted mb-0">
-                                        We connect you with qualified candidates in days, not months.
+                                        Defined rights, responsibilities, and professional standards for employees and management.
                                     </p>
 
                                 </div>
@@ -50,9 +48,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Tailored Recruitment Solutions</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Leave & Attendance Policies</h5>
                                     <p className="text-muted mb-0">
-                                        From entry-level to C-suite roles.
+                                        Structured leave rules and attendance protocols for better workforce planning.
                                     </p>
 
                                 </div>
@@ -64,9 +62,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Wide Industry Coverage</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Compensation & Benefits Framework</h5>
                                     <p className="text-muted mb-0">
-                                        IT, manufacturing, healthcare, hospitality, finance, retail, and more.
+                                        Clear guidelines on salary structure, allowances, incentives, and benefits.
                                     </p>
 
                                 </div>
@@ -78,9 +76,51 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Quality Over Quantity</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Performance & Appraisal Procedures</h5>
                                     <p className="text-muted mb-0">
-                                        We ensure candidates meet your skill and cultural requirements.
+                                        Systematic evaluation processes to ensure fair and transparent performance reviews.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Workplace Safety & Employee Welfare</h5>
+                                    <p className="text-muted mb-0">
+                                        Policies to ensure safe, ethical, and inclusive working conditions.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Exit & Termination Guidelines</h5>
+                                    <p className="text-muted mb-0">
+                                        Compliance-focused procedures for resignation, retirement, and termination.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Policy Communication & Awareness</h5>
+                                    <p className="text-muted mb-0">
+                                        Training and orientation sessions to ensure employees, managers, and contractors understand company rules and amendments.
                                     </p>
 
                                 </div>
@@ -108,4 +148,4 @@ We offer specialized consultancy services to ensure your business runs at its fu
     );
 };
 
-export default Solutions5;
+export default Solutions8;

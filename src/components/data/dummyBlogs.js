@@ -11,7 +11,7 @@ export const blogs = [
       title: 'Why Choose a Leading HR Consultancy in Calicut, Kerala?',
       description: 'Running a business in today’s competitive environment requires more than just good products and services. It demands',
       time: '13 AUG, 21',
-      link: '/blogs/blog1/blog-details',
+      link: '/blogs/why-choose-a-leading-hr-consultancy-in-calicut-kerala',
     },
     {
       blogImg: blog2,
@@ -19,7 +19,7 @@ export const blogs = [
       description: 'Recruitment is often one of the most time-consuming and costly processes for businesses. For small and medium',
 
       time: '14 AUG, 21',
-      link: '/blogs/blog2/blog-details',
+      link: '/blogs/recruitment-outsourcing-in-kerala',
     },
     {
       blogImg: blog3,
@@ -27,7 +27,7 @@ export const blogs = [
       description: 'Managing payroll is one of the most challenging aspects for small and medium enterprises (SMEs) in Kerala.',
 
       time: '15 AUG, 21',
-      link: '/blogs/blog3/blog-details',
+      link: '/blogs/payroll-outsourcing-in-kerala',
     },
     {
       blogImg: blog4,
@@ -35,7 +35,7 @@ export const blogs = [
       description: 'Running a business in Kerala is not only about offering good products or services. It also means',
 
       time: '15 AUG, 21',
-      link: '/blogs/blog4/blog-details',
+      link: '/blogs/the-complete-guide-to-hr-compliance-in-kerala',
     },
     {
       blogImg: blog5,
@@ -43,7 +43,7 @@ export const blogs = [
       description: 'Finding and keeping the right talent is one of the biggest challenges for small and medium businesses in Kerala.',
 
       time: '15 AUG, 21',
-      link: '/blogs/blog5/blog-details',
+      link: '/blogs/how-to-choose-the-right-hr-consultancy-in-calicut',
     },
   ];
 

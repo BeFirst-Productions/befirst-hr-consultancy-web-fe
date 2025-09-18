@@ -14,13 +14,15 @@ const HRBanner = () => {
 
   const stats = [
     {
-      number: 850,
-      title: 'Resolved Partner Cases',
+      number: 300,
+      suffix: '+',
+      title: 'SMEs & Corporate Clients Served',
       icon: <UserCheck className="stat-icon" />
     },
     {
-      number: 125,
-      title: 'Successful Placements',
+      number: 95,
+      suffix: '%',
+      title: 'Client Satisfaction Rate',
       icon: <Award className="stat-icon" />
     },
     {
@@ -30,9 +32,9 @@ const HRBanner = () => {
       icon: <TrendingUp className="stat-icon" />
     },
     {
-      number: 2500,
+      number: 50,
       suffix: '+',
-      title: 'Transformation Hours',
+      title: 'HR Programs Delivered',
       icon: <Briefcase className="stat-icon" />
     }
   ];
@@ -47,7 +49,7 @@ const HRBanner = () => {
         <div className="shape shape-3"></div>
         <div className="shape shape-4"></div>
       </div>
-      
+
       {/* Particle Effects */}
       <div className="particles">
         {[...Array(20)].map((_, i) => (
@@ -59,15 +61,18 @@ const HRBanner = () => {
         <Row className="align-items-center h-100 banner-row">
           <Col lg={7} md={6} className="content-section">
             <div className={`mission-content ${isVisible ? 'fade-in-up' : ''}`}>
-              <h1 className="mission-title">
+              {/* <h2 className="mission-title">
                 Mission: <span className="highlight">Safeguarding</span><br />
                 Your <span className="highlight">Career</span> &<br />
                 Beyond
-              </h1>
-              
+              </h2> */}
+              <h2 className="mission-title">
+                Powering <span className="highlight"> SMEs </span>  and  <span className="highlight"> Corporates </span> with HR Excellence
+              </h2>
+
               <p className="mission-description">
-                Empowering professionals and businesses through strategic HR solutions, 
-                comprehensive talent management, and transformative career guidance.
+                Empowering professionals, SMEs, and corporates with strategic HR services,
+                consulting expertise, talent management, and transformative career guidance for lasting success.
               </p>
             </div>
           </Col>
@@ -82,8 +87,8 @@ const HRBanner = () => {
                     </div>
                     <div className="stat-number-compact">
                       {countersVisible && (
-                        <CountUp 
-                          end={stat.number} 
+                        <CountUp
+                          end={stat.number}
                           duration={2.5}
                           enableScrollSpy={false}
                           preserveValue={true}

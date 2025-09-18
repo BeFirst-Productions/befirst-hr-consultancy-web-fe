@@ -27,12 +27,16 @@ export const chatSteps = [
     question: "Which service are you most interested in right now?",
     options: [
       { value: 'hr_operations_&_administration', label: '🗂️ HR Operations & Administration' },
-      { value: 'payroll', label: '💵 Payroll & Compensation' },
-      { value: 'recruitment', label: '🧑‍💼 Recruitment Services' },
-      { value: 'learning_&_development', label: '🎓 Learning & Development' },
       { value: 'hr_planning_&_organization', label: '📊 HR Planning & Organization' },
-      { value: 'talent_acquisition', label: '🤝 Talent Acquisition & Onboarding' },
-      { value: 'management', label: '✅ Quality Assurance & Compliance' }
+      { value: 'learning_&_development', label: '🎓 Learning & Development' },
+      { value: 'payroll_&_compensation', label: '💵 Payroll & Compensation' },
+      { value: 'recruitment_assistance', label: '🧑‍💼 Recruitment Assistance' },
+      { value: 'quality_assurance_&_compliance', label: '✅ Quality Assurance & Compliance' },
+      { value: 'talent_acquisition_&_onboarding', label: '🤝 Talent Acquisition & Onboarding' },
+      { value: 'hr_policy_&_procedure', label: '📋 HR Policy & Procedure' },
+      { value: 'staff_appraisal_system', label: '⭐ Staff Appraisal System' },
+      { value: 'training_&_development', label: '🚀 Training & Development' },
+      { value: 'customer_care_orientation', label: '👥 Customer Care Orientation' }
     ],
     response: "Excellent! That's one of our specialties. We've helped 200+ companies excel in this area. ⭐"
   },

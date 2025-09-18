@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
 
-const ServiceFAQ5 = (props) => {
+const ServiceFAQ8 = (props) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
@@ -26,12 +26,14 @@ const ServiceFAQ5 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Which industries does Befirst HR & Management Consultancy recruit for?
+                                    What are HR Policy & Procedure Services in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We cover IT, manufacturing, healthcare, hospitality, finance, retail, education, and more across Kerala.
+                                    <strong> HR Policy & Procedure Services in Kerala </strong> involve creating a comprehensive set of rules and guidelines for hiring,
+                                    promotions, leave, termination, compensation, performance appraisal, and workplace conduct. These services ensure
+                                    organizations comply with labor laws, maintain smooth operations, and provide a structured framework for employees, managers, and contractors.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +44,14 @@ const ServiceFAQ5 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    How fast can you find candidates?
+                                    Why are HR policies important for companies in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Depending on the role, we can connect you with shortlisted candidates within 48–72 hours.
+                                    HR policies are crucial for companies in Kerala as they define employee rights, responsibilities, and workplace standards.
+                                    They help organizations maintain compliance with Kerala’s labor regulations, improve workforce planning, enhance employee engagement,
+                                    and provide clarity on compensation, benefits, leave, and termination procedures.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +62,15 @@ const ServiceFAQ5 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you recruit for senior management positions?
+                                    Why should businesses in Kerala choose Befirst for HR policy development?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We specialise in executive search for CEOs, COOs, CFOs, and other leadership roles.
+                                    Befirst offers expert HR policy consultancy in Kerala with 40+ years of experience. Our services include customized
+                                    policies aligned with Kerala labor laws, digital-first documentation, continuous support for updates, and policies designed
+                                    after detailed consultations with your management team. We ensure your HR framework is efficient, compliant, and employee-friendly.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,31 +81,19 @@ const ServiceFAQ5 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Can you provide candidates from outside Kerala?
+                                    What HR Policy & Procedure services does Befirst offer in Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. While we focus on local recruitment in Kozhikode, Kochi, and Trivandrum, we also source talent from across India.
+                                    Befirst offers comprehensive HR Policy & Procedure services in Kerala, including frameworks for recruitment,
+                                    promotions, leave, termination, compensation, and benefits, along with workplace codes of conduct, safety measures,
+                                    employee welfare policies, performance appraisals, exit formalities, and policy communication with awareness training to
+                                    ensure compliance and smooth HR operations.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How do I start using your recruitment assistance?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Simply call us or fill out our online form with your hiring requirements, and our team will take it from there.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>
@@ -108,4 +102,4 @@ const ServiceFAQ5 = (props) => {
     )
 }
 
-export default ServiceFAQ5;
+export default ServiceFAQ8;

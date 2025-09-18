@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Logo from '../../images/Befirst-Logos-5.png'
 import Logo from '../../images/Befirst-Logos-png.png'
 
 const Footer = (props) => {
@@ -14,7 +13,7 @@ const Footer = (props) => {
             <div className="wpo-upper-footer">
                 <div className="container">
                     <div className="row">
-                        {/* Column 1 - About/Logo */}
+                        {/* Column 1  */}
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
@@ -49,7 +48,7 @@ const Footer = (props) => {
                             </div>
                         </div>
 
-                        {/* Column 4 - Contact */}
+                        {/* Column 4 */}
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget wpo-service-link-widget">
                                 <div className="widget-title">
@@ -85,7 +84,23 @@ const Footer = (props) => {
                             </div>
                         </div>
 
-                        {/* Column 2 - HR Services */}
+                        {/* Column 2 */}
+                        <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
+                            <div className="widget link-widget">
+                                <div className="widget-title">
+                                    <h3>Consultancy</h3>
+                                </div>
+                                <ul>
+                                    <li><Link onClick={ClickHandler} to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/hr-policy-&-procedure">HR Polcy & Procedure</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/staff-appraisal-system">Staff Appraisal System</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/customer-care-orientation">Customer Care Orientation</Link></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Column 3  */}
                         <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
@@ -93,33 +108,18 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/service/hr-operations-&-administration">HR Operations & Administration</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service/talent-acquisition-&-Onboarding ">Talent Acquisition & Onboarding</Link></li>
-
-
-
-                                </ul>
-                            </div>
-                        </div>
-
-                        {/* Column 3 - Management Services */}
-                        <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
-                            <div className="widget link-widget">
-                                <div className="widget-title">
-                                    <h3>Consultancy</h3>
-                                </div>
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/service/recruitment-services">Recruitment Services</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/recruitment-assistance">Recruitment Assistance</Link></li>
                                     <li><Link onClick={ClickHandler} to="/service/learning-&-development">Learning & Development</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/talent-acquisition-&-Onboarding ">Talent Acquisition & Onboarding</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service/traing-&-development ">Training & Development</Link></li>
+
                                 </ul>
                             </div>
                         </div>
 
 
-
-                        {/* Column 5 - Legal/Policy */}
+                        {/* Column 5 */}
                         <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title" >
@@ -147,7 +147,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2025 Be First HR by <Link onClick={ClickHandler} to="">Next Media</Link>. All Rights Reserved.</p>
+                            <p className="copyright"> Copyright &copy; 2025 Be First HR by <Link onClick={ClickHandler} to="https://nextmedia.ae/" target='_blank'>Next Media</Link>. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>

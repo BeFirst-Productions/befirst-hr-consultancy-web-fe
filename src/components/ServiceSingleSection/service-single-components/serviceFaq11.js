@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
 
-const ServiceFAQ5 = (props) => {
+const ServiceFAQ11 = (props) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
@@ -26,12 +26,12 @@ const ServiceFAQ5 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Which industries does Befirst HR & Management Consultancy recruit for?
+                                    What is Customer Care Orientation in Calicut?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We cover IT, manufacturing, healthcare, hospitality, finance, retail, education, and more across Kerala.
+                                    Customer Care Orientation in Calicut is a structured training program by Befirst HR Consulting that equips employees with the skills to provide excellent customer service and build lasting relationships.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +42,12 @@ const ServiceFAQ5 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    How fast can you find candidates?
+                                    Who should attend Customer Care Orientation in Calicut?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Depending on the role, we can connect you with shortlisted candidates within 48–72 hours.
+                                    Both senior and junior staff across all departments can benefit from Customer Care Orientation in Calicut to improve communication, complaint handling, and customer engagement.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +58,12 @@ const ServiceFAQ5 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you recruit for senior management positions?
+                                    What topics are covered in the orientation?
                                 </Typography>
-
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We specialise in executive search for CEOs, COOs, CFOs, and other leadership roles.
+                                    Key topics include customer interaction training, handling complaints, emotional intelligence, relationship building, service excellence, and feedback collection & analysis.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,31 +74,16 @@ const ServiceFAQ5 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Can you provide candidates from outside Kerala?
+                                    Why choose Befirst HR Consulting for Customer Care Orientation in Calicut?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. While we focus on local recruitment in Kozhikode, Kochi, and Trivandrum, we also source talent from across India.
+                                    With 40+ years of HR expertise, digital-first training methods, and local Kerala knowledge, Befirst HR ensures staff gain practical skills to retain customers and enhance service quality.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How do I start using your recruitment assistance?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Simply call us or fill out our online form with your hiring requirements, and our team will take it from there.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>
@@ -108,4 +92,4 @@ const ServiceFAQ5 = (props) => {
     )
 }
 
-export default ServiceFAQ5;
+export default ServiceFAQ11;

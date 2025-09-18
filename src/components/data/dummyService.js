@@ -122,8 +122,8 @@ export const service = [
     {
         id: 5,
         sIcon: 'fi flaticon-user',
-        Link: '/service/recruitment-services',
-        title: 'Recruitment Services',
+        Link: '/service/recruitment-assistance',
+        title: 'Recruitment Assistance',
         des: 'Find skilled professionals easily with recruitment services in Kerala across industries and business sizes.',
 //         body: `Our team supports businesses in implementing payroll
 // systems (e.g., Zoho, Tally) and provides hands-on training to
@@ -163,5 +163,37 @@ export const service = [
         title: 'Talent Acquisition & Onboarding',
         des: 'Ensure smooth workforce integration through Talent Acquisition & Onboarding services in Kerala for all industries.',
        
-    }
+    },
+    {
+        id: 8,
+        sIcon: 'fi flaticon-business',
+        Link: '/service/hr-policy-&-procedure',
+        title: 'HR Policy & Procedure ',
+        des: 'HR policies set rules defining employer-employee roles, while procedures ensure proper implementation within organizations.',
+       
+    },
+    {
+        id: 9,
+        sIcon: 'fi flaticon-business',
+        Link: '/service/staff-appraisal-system',
+        title: 'Staff Appraisal System ',
+        des: 'Staff Appraisal System identifies employee strengths and weaknesses, aligns performance with business goals, and enhances growth.',
+       
+    },
+    {
+        id: 10,
+        sIcon: 'fi flaticon-business',
+        Link: '/service/traing-&-development',
+        title: 'Training & Development ',
+        des: 'Training & Development Services in Calicut, Kerala empower employees, enhance skills, and transform talent into organizational leaders.',
+       
+    },
+    {
+        id: 11,
+        sIcon: 'fi flaticon-business',
+        Link: '/service/customer-care-orientation',
+        title: 'Customer Care Orientation ',
+        des: 'Befirst HR Consulting provides customized customer care training, ensuring staff build strong relationships and retain every customer.',
+       
+    },
 ];

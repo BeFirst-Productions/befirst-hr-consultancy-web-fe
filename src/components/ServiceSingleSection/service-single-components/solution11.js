@@ -1,16 +1,14 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const Solutions5 = () => {
+const Solutions11 = () => {
     return (
         <section className="solutions-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Why Choose Befirst Recruitment Assistance?</h2>
-                        {/* <p className="lead text-muted">
-We offer specialized consultancy services to ensure your business runs at its full potential:                            
-</p> */}
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Customer Care Orientation Services in Calicut</h2>
+
                     </div>
                 </div>
 
@@ -22,9 +20,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Local Market Expertise</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Customer Interaction Training</h5>
                                     <p className="text-muted mb-0">
-                                        Deep understanding of Kerala’s job market and industry demands.
+                                        Improve employee communication and interpersonal skills to ensure seamless customer interactions.
                                     </p>
 
                                 </div>
@@ -36,11 +34,10 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Fast & Efficient Hiring </h5>
+                                    <h5 className="fw-bold mb-2 text-dark"> Handling Customer Complaints</h5>
                                     <p className="text-muted mb-0">
-                                        We connect you with qualified candidates in days, not months.
+                                        Equip staff to efficiently resolve complaints, turning challenges into positive experiences.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
@@ -50,11 +47,10 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Tailored Recruitment Solutions</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Emotional Intelligence Development</h5>
                                     <p className="text-muted mb-0">
-                                        From entry-level to C-suite roles.
+                                        Train employees to recognize and respond effectively to customer emotions for better engagement.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
@@ -64,11 +60,10 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Wide Industry Coverage</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Building Customer Relationships</h5>
                                     <p className="text-muted mb-0">
-                                        IT, manufacturing, healthcare, hospitality, finance, retail, and more.
+                                        Foster long-term customer loyalty through consistent, meaningful, and positive interactions.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
@@ -78,11 +73,23 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Quality Over Quantity</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Service Excellence Techniques</h5>
                                     <p className="text-muted mb-0">
-                                        We ensure candidates meet your skill and cultural requirements.
+                                        Enhance service delivery to consistently exceed customer expectations and create memorable experiences.
                                     </p>
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Feedback Collection & Analysis</h5>
+                                    <p className="text-muted mb-0">
+                                        Collect, analyze, and act on customer feedback to continuously improve service quality.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -108,4 +115,4 @@ We offer specialized consultancy services to ensure your business runs at its fu
     );
 };
 
-export default Solutions5;
+export default Solutions11;

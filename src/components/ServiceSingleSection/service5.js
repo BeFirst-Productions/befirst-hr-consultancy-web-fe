@@ -3,13 +3,6 @@ import ServiceSingleSidebar from './service-single-components/sidebar'
 // import Solutions from './service-single-components/solution'
 // import Benefits from './service-single-components/benefits'
 // import WhyChoose from './service-single-components/whyChooseUs'
-import ServiceFAQ2 from './service-single-components/serviceFaq2'
-import WhyChoose2 from './service-single-components/whyChooseUs2'
-import Solutions2 from './service-single-components/solution2'
-import ServiceFAQ3 from './service-single-components/serviceFaq3'
-import Solutions3 from './service-single-components/solution3'
-import Solutions4 from './service-single-components/solution4'
-import ServiceFAQ4 from './service-single-components/serviceFaq4'
 import ServiceFAQ5 from './service-single-components/serviceFaq5'
 import Solutions5 from './service-single-components/solution5'
 import RecruitmentProcess from './service-single-components/RecruitmentProcess'
@@ -41,9 +34,12 @@ const ServiceSingleSection5 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Recruitment Services </h2>
+                                    <h2>Recruitment Assistance </h2>
                                     <p>
-                                        At Befirst HR & Management Consultancy, we understand that the right people make the biggest difference in your business success. Whether you’re a startup in Kozhikode, a growing SME in Kochi, a corporate office in India, or a global business in the GCC our recruitment services help you find top talent that fits your company’s culture, goals, and growth plans.
+                                        At Befirst HR & Management Consultancy, we understand that the right people make the biggest difference
+                                        in your business success. Whether you’re a startup in Kozhikode, a growing SME in Kochi, a corporate office
+                                        in India, or a global business in the GCC our Recruitment Assistance help you find top talent that fits your
+                                        company’s culture, goals, and growth plans.
                                     </p>
                                     <p>
                                         We don’t just fill positions — <strong> we build winning teams. </strong>
@@ -55,7 +51,7 @@ const ServiceSingleSection5 = () => {
 
                             </div>
                             <Solutions5 />
-                            <RecruitmentProcess/>
+                            <RecruitmentProcess />
                             <div className="wpo-service-single-content-des">
                                 <h2>Industries We Serve</h2>
                                 <ul style={bulletList}>

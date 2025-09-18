@@ -70,7 +70,7 @@ const BlogSidebar4 = (props) => {
                                 <img src={blog1} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/blog1/blog-details">How SMEs Can Build a Strong Employer Brand in Kerala</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/why-choose-a-leading-hr-consultancy-in-calicut-kerala">How SMEs Can Build a Strong Employer Brand in Kerala</Link></h4>
                                 <span className="date">19 Jun 2021 </span>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const BlogSidebar4 = (props) => {
                                 <img src={blog2} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/blog2/blog-details">Why Outsourcing Recruitment Can Save You Time & Money – Benefits of Recruitment Outsourcing in Kerala</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/recruitment-outsourcing-in-kerala">Why Outsourcing Recruitment Can Save You Time & Money – Benefits of Recruitment Outsourcing in Kerala</Link></h4>
                                 <span className="date">22 May 2021 </span>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const BlogSidebar4 = (props) => {
                                 <img src={blog3} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/blog3/blog-details">Top 10 Payroll Mistakes SMEs in Kerala Must Avoid</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/payroll-outsourcing-in-kerala">Top 10 Payroll Mistakes SMEs in Kerala Must Avoid</Link></h4>
                                 <span className="date">12 Apr 2021 </span>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const BlogSidebar4 = (props) => {
                                 <img src={blog3} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/blog5/blog-details">The Complete Guide to HR Compliance in Kerala</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/how-to-choose-the-right-hr-consultancy-in-calicut">The Complete Guide to HR Compliance in Kerala</Link></h4>
                                 <span className="date">12 Apr 2021 </span>
                             </div>
                         </div> */}
@@ -106,7 +106,7 @@ const BlogSidebar4 = (props) => {
                                 <img src={blog5} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/blog5/blog-details">How to Choose the Right HR Consultancy in Calicut</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/how-to-choose-the-right-hr-consultancy-in-calicut">How to Choose the Right HR Consultancy in Calicut</Link></h4>
                                 <span className="date">12 Apr 2021 </span>
                             </div>
                         </div>

@@ -1,16 +1,14 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const Solutions5 = () => {
+const Solutions9 = () => {
     return (
         <section className="solutions-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Why Choose Befirst Recruitment Assistance?</h2>
-                        {/* <p className="lead text-muted">
-We offer specialized consultancy services to ensure your business runs at its full potential:                            
-</p> */}
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Key Benefits of a Staff Appraisal System</h2>
+
                     </div>
                 </div>
 
@@ -22,9 +20,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Local Market Expertise</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Enhances Employee Capacity</h5>
                                     <p className="text-muted mb-0">
-                                        Deep understanding of Kerala’s job market and industry demands.
+                                        Boosts skills and competencies, enabling employees to perform at their best.
                                     </p>
 
                                 </div>
@@ -36,9 +34,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Fast & Efficient Hiring </h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Aligns with Organizational Goals</h5>
                                     <p className="text-muted mb-0">
-                                        We connect you with qualified candidates in days, not months.
+                                        Ensures individual performance contributes to the company’s mission, vision, and strategic objectives.
                                     </p>
 
                                 </div>
@@ -50,9 +48,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Tailored Recruitment Solutions</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Develops Talent & Skills</h5>
                                     <p className="text-muted mb-0">
-                                        From entry-level to C-suite roles.
+                                        Provides structured development plans, training, and upskilling opportunities.
                                     </p>
 
                                 </div>
@@ -64,9 +62,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Wide Industry Coverage</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Personal Targets & Accountability</h5>
                                     <p className="text-muted mb-0">
-                                        IT, manufacturing, healthcare, hospitality, finance, retail, and more.
+                                        Assigns measurable objectives to employees, fostering responsibility and motivation.
                                     </p>
 
                                 </div>
@@ -78,9 +76,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Quality Over Quantity</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Improves Growth & Profitability</h5>
                                     <p className="text-muted mb-0">
-                                        We ensure candidates meet your skill and cultural requirements.
+                                        A well-executed appraisal system drives business growth by maximizing workforce potential.
                                     </p>
 
                                 </div>
@@ -108,4 +106,4 @@ We offer specialized consultancy services to ensure your business runs at its fu
     );
 };
 
-export default Solutions5;
+export default Solutions9;

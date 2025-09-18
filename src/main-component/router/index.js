@@ -29,6 +29,10 @@ import ServiceSinglePage6 from '../ServiceSinglePage/service6';
 import ServiceSinglePage1 from '../ServiceSinglePage/service1';
 import HRChatbot from '../../components/HR-chatbot';
 import ServiceSinglePage7 from '../ServiceSinglePage/service7';
+import ServiceSinglePage8 from '../ServiceSinglePage/service8';
+import ServiceSinglePage9 from '../ServiceSinglePage/service9';
+import ServiceSinglePage10 from '../ServiceSinglePage/service10';
+import ServiceSinglePage11 from '../ServiceSinglePage/service11';
 
 
 const AllRoute = () => {
@@ -47,19 +51,23 @@ const AllRoute = () => {
         <Route path='/service/hr-planning-&-organization' element={<ServiceSinglePage2 />} />
         <Route path='/service/learning-&-development' element={<ServiceSinglePage3 />} />
         <Route path='/service/payroll-&-compensation' element={<ServiceSinglePage4 />} />
-        <Route path='/service/recruitment-services' element={<ServiceSinglePage5 />} />
+        <Route path='/service/recruitment-assistance' element={<ServiceSinglePage5 />} />
         <Route path='/service/quality-assurance-&-compliance' element={<ServiceSinglePage6 />} />
         <Route path='/service/talent-acquisition-&-Onboarding' element={<ServiceSinglePage7 />} />
+        <Route path='/service/hr-policy-&-procedure' element={<ServiceSinglePage8 />} />
+        <Route path='/service/staff-appraisal-system' element={<ServiceSinglePage9 />} />
+        <Route path='/service/traing-&-development' element={<ServiceSinglePage10 />} />
+        <Route path='/service/customer-care-orientation' element={<ServiceSinglePage11 />} />
 
         <Route path='/contact' element={<ContactPage />} />
 
         <Route path='/blogs' element={<BlogPage />} />
         <Route path='/blog-fullwidth' element={<BlogPageFullwidth />} />
-        <Route path='/blogs/blog1/blog-details' element={<BlogDetails />} />
-        <Route path='/blogs/blog2/blog-details' element={<BlogSingle2 />} />
-        <Route path='/blogs/blog3/blog-details' element={<BlogSingle3 />} />
-        <Route path='/blogs/blog4/blog-details' element={<BlogSingle4 />} />
-        <Route path='/blogs/blog5/blog-details' element={<BlogSingle5 />} />
+        <Route path='/blogs/why-choose-a-leading-hr-consultancy-in-calicut-kerala' element={<BlogDetails />} />
+        <Route path='/blogs/recruitment-outsourcing-in-kerala' element={<BlogSingle2 />} />
+        <Route path='/blogs/payroll-outsourcing-in-kerala' element={<BlogSingle3 />} />
+        <Route path='/blogs/the-complete-guide-to-hr-compliance-in-kerala' element={<BlogSingle4 />} />
+        <Route path='/blogs/how-to-choose-the-right-hr-consultancy-in-calicut' element={<BlogSingle5 />} />
         <Route path='/blog-single-fullwidth' element={<BlogDetailsFull />} />
 
         <Route path='/careers' element={<CareersPage />} />

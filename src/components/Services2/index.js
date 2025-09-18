@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { service } from "../data/dummyService";
-import { Calculator, ClipboardList, GraduationCap, PieChart, Presentation, SearchCheck, Settings, Shield, TrendingUp, UserCheck, Users, UserSearch } from "lucide-react";
+import { Calculator, ClipboardList, GraduationCap, Headset, Layers, LineChart, PieChart, Presentation, ScrollText, SearchCheck, Settings, Shield, TrendingUp, UserCheck, Users, UserSearch } from "lucide-react";
 
 
 class Services2 extends Component {
@@ -72,6 +72,14 @@ class Services2 extends Component {
                     return <Shield size={45} />;
                 case 7:
                     return <UserCheck size={45} />;
+                case 8:
+                    return <ScrollText size={45} />;
+                case 9:
+                    return <LineChart size={45} />;
+                case 10:
+                    return <Layers size={45} />;
+                case 11:
+                    return <Headset size={45} />;
                 default:
                     return <Users size={45} />;
             }

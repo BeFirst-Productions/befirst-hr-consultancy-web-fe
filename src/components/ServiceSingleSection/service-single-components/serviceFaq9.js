@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
 
-const ServiceFAQ5 = (props) => {
+const ServiceFAQ9 = (props) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
@@ -26,12 +26,13 @@ const ServiceFAQ5 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Which industries does Befirst HR & Management Consultancy recruit for?
+                                    What is a Staff Appraisal System in Calicut?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We cover IT, manufacturing, healthcare, hospitality, finance, retail, education, and more across Kerala.
+                                    A Staff Appraisal System in Calicut is a structured HR tool used to evaluate employee performance, identify strengths and weaknesses, and address skill gaps. It helps managers and supervisors assess whether employee contributions align with organizational goals and objectives.
+
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +43,13 @@ const ServiceFAQ5 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    How fast can you find candidates?
+                                    Why is staff appraisal important for companies in Calicut?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Depending on the role, we can connect you with shortlisted candidates within 48–72 hours.
+                                    Staff appraisal is important as it enhances employee capacity, motivates performance, and ensures alignment with the company’s mission and vision. It also supports talent development, accountability, and drives business growth and profitability.
+
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +60,13 @@ const ServiceFAQ5 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you recruit for senior management positions?
+                                    What are the key components of a staff appraisal system?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We specialise in executive search for CEOs, COOs, CFOs, and other leadership roles.
+                                    A staff appraisal system identifies employee strengths and skill gaps, sets targets, and provides regular feedback. It aligns individual performance with organizational goals. It also develops training and growth plans to enhance skills and drive success.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,31 +77,16 @@ const ServiceFAQ5 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Can you provide candidates from outside Kerala?
+                                    How does Befirst help businesses in Calicut implement staff appraisal systems?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. While we focus on local recruitment in Kozhikode, Kochi, and Trivandrum, we also source talent from across India.
+                                    Befirst provides expert consultancy to implement efficient staff appraisal systems in Calicut. We educate organizations on appraisal types, challenges, and strategies to make the process fair, transparent, and results-driven. Our approach ensures measurable employee performance improvement and organizational growth.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How do I start using your recruitment assistance?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Simply call us or fill out our online form with your hiring requirements, and our team will take it from there.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>
@@ -108,4 +95,4 @@ const ServiceFAQ5 = (props) => {
     )
 }
 
-export default ServiceFAQ5;
+export default ServiceFAQ9;

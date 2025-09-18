@@ -78,7 +78,7 @@ const menus = [
             {
                 id: 35,
                 title: 'Recruitment Services',
-                link: '/service/recruitment-services'
+                link: '/service/recruitment-assistance'
             },
             {
                 id: 36,

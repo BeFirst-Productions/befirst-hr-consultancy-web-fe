@@ -177,14 +177,14 @@ const ProfessionalBanner = () => {
         }}
       >
         <div className="row align-items-center min-vh-100">
-          {/* Main Content - Left Positioned with Controlled Spacing */}
+   
           <div className="col-12 col-lg-8 col-xl-7" style={{ marginLeft: 'clamp(10px, 8vw, 10px)' }}>
             <div 
               className="position-relative"
               style={{
                 paddingLeft: 'clamp(0px, 4vw, 80px)',
                 paddingRight: 'clamp(20px, 6vw, 120px)',
-                maxWidth: '900px' // Controls maximum content width
+                maxWidth: '900px' 
               }}
             >
               {/* Hero Title */}
@@ -257,9 +257,10 @@ const ProfessionalBanner = () => {
                     textAlign: 'left'
                   }}
                 >
-                  We don't just connect talent with opportunity — we architect career transformations 
-                  and business excellence. Join Kerala's most trusted HR consultancy where your 
-                  professional aspirations meet unparalleled expertise.
+                  At Befirst HR & Management Services, we go beyond recruitment. 
+                  As the most trusted HR consultancy in Calicut, Kerala, we empower professionals
+                   to achieve career breakthroughs and help businesses build high-performing teams.
+
                 </p>
               </div>
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-// import Logo from '../../images/logo.png'
-// import Logo from '../../images/Befirst-Logos-5.png'
 import Logo from '../../images/Befirst-Logos0.jpg'
+// import Logo from '../../images/Befirst-latest-logo-2.svg'
 
 import { Link } from 'react-router-dom'
 import MobileMenu from '../../components/MobileMenu'
@@ -18,6 +17,21 @@ export default class Header2 extends Component {
         searchSuggestions: [],
         showSuggestions: false,
     }
+
+    // Services data array
+    services = [
+        { path: "/service/hr-operations-&-administration", label: "HR Operations & Administration" },
+        { path: "/service/hr-planning-&-organization", label: "HR Planning & Organization" },
+        { path: "/service/learning-&-development", label: "Learning & Development" },
+        { path: "/service/payroll-&-compensation", label: "Payroll & Compensation" },
+        { path: "/service/recruitment-assistance", label: "Recruitment Assistance" },
+        { path: "/service/quality-assurance-&-compliance", label: "Quality Assurance & Compliance" },
+        { path: "/service/talent-acquisition-&-Onboarding", label: "Talent Acquisition & Onboarding" },
+        { path: "/service/hr-policy-&-procedure", label: "HR Policy & Procedure" },
+        { path: "/service/staff-appraisal-system", label: "Staff Appraisal System" },
+        { path: "/service/traing-&-development", label: "Training & Development" },
+        { path: "/service/customer-care-orientation", label: "Customer Care Orientation" }
+    ]
 
     searchHandler = () => {
         this.setState({
@@ -131,25 +145,26 @@ export default class Header2 extends Component {
                                                     <Link onClick={ClickHandler} to="/about">
                                                         About Us
                                                     </Link>
-                                                    <ul className="sub-menu">
+                                                    <ul className="sub-menu premium-services-menu">
                                                         <li><Link onClick={ClickHandler} to="/about">Who We Are</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/about/founders-vision">Founder’s Vision</Link></li>
+                                                        <li><Link onClick={ClickHandler} to="/about/founders-vision">Founder's Vision</Link></li>
                                                         <li><Link onClick={ClickHandler} to="/about/mission-&-values">Our Mission & Values</Link></li>
                                                     </ul>
                                                 </li>
 
-                                                <li>
+                                                <li className="menu-item-has-children premium-dropdown">
                                                     <Link onClick={ClickHandler} to="#">
                                                         Services
                                                     </Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link onClick={ClickHandler} to="/service/hr-operations-&-administration">HR Operations & Administration</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/hr-planning-&-organization">HR Planning & Organization</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/learning-&-development">Learning & Development</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/payroll-&-compensation">Payroll & Compensation</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/recruitment-services">Recruitment Services</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/quality-assurance-&-compliance">Quality Assurance & Compliance</Link></li>
-                                                        <li><Link onClick={ClickHandler} to="/service/talent-acquisition-&-Onboarding ">Talent Acquisition & Onboarding</Link></li>
+                                                    <ul className="sub-menu premium-services-menu">
+                                                        {this.services.map((service, index) => (
+                                                            <li key={index}>
+                                                                <Link onClick={ClickHandler} to={service.path}>
+                                                                    <i className="fi flaticon-next"></i>
+                                                                    {service.label}
+                                                                </Link>
+                                                            </li>
+                                                        ))}
                                                     </ul>
                                                 </li>
                                                 <li >
@@ -291,6 +306,112 @@ export default class Header2 extends Component {
                     isOpen={isConsultingModalOpen}
                     toggle={this.toggleConsultingModal}
                 />
+
+                {/* Add CSS for the premium dropdown */}
+                <style>
+                    {`
+                    /* Premium Services Dropdown Styling */
+                    .premium-dropdown .premium-services-menu {
+                        max-height: 320px;
+                        overflow-y: auto;
+                        width: 280px;
+                        border: none;
+                        border-radius: 8px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                        padding: 12px 0;
+                        background: linear-gradient(135deg, #ffffff 0%, #f8f9fc 100%);
+                        transform: translateY(10px);
+                        transition: all 0.3s ease;
+                    }
+                    
+                    .premium-dropdown:hover .premium-services-menu {
+                        transform: translateY(0);
+                        opacity: 1;
+                        visibility: visible;
+                        display: block;
+                    }
+                    
+                    .premium-services-menu li {
+                        padding: 0;
+                        margin: 0;
+                        border-bottom: 1px solid rgba(0,0,0,0.05);
+                    }
+                    
+                    .premium-services-menu li:last-child {
+                        border-bottom: none;
+                    }
+                    
+                    .premium-services-menu li a {
+                        display: flex;
+                        align-items: center;
+                        padding: 12px 20px;
+                        color: #2c3e50;
+                        font-weight: 500;
+                        font-size: 14px;
+                        transition: all 0.2s ease;
+                        position: relative;
+                        text-decoration: none;
+                    }
+                    
+                    .premium-services-menu li a i {
+                        margin-right: 12px;
+                        color: #304FE9;
+                        font-size: 12px;
+                        transition: all 0.2s ease;
+                    }
+                    
+                    .premium-services-menu li a:hover {
+                        background: linear-gradient(90deg, rgba(48, 79, 233, 0.1) 0%, rgba(48, 79, 233, 0.05) 100%);
+                        color: #304FE9;
+                        padding-left: 25px;
+                    }
+                    
+                    .premium-services-menu li a:hover i {
+                        transform: translateX(3px);
+                    }
+                    
+                    /* Custom scrollbar for the premium dropdown */
+                    .premium-services-menu::-webkit-scrollbar {
+                        width: 6px;
+                    }
+                    
+                    .premium-services-menu::-webkit-scrollbar-track {
+                        background: rgba(48, 79, 233, 0.05);
+                        border-radius: 10px;
+                        margin: 5px 0;
+                    }
+                    
+                    .premium-services-menu::-webkit-scrollbar-thumb {
+                        background: rgba(48, 79, 233, 0.3);
+                        border-radius: 10px;
+                    }
+                    
+                    .premium-services-menu::-webkit-scrollbar-thumb:hover {
+                        background: rgba(48, 79, 233, 0.5);
+                    }
+                    
+                    /* Animation for dropdown items */
+                    @keyframes fadeIn {
+                        from { opacity: 0; transform: translateY(5px); }
+                        to { opacity: 1; transform: translateY(0); }
+                    }
+                    
+                    .premium-services-menu li {
+                        animation: fadeIn 0.3s ease forwards;
+                    }
+                    
+                    .premium-services-menu li:nth-child(1) { animation-delay: 0.05s; }
+                    .premium-services-menu li:nth-child(2) { animation-delay: 0.1s; }
+                    .premium-services-menu li:nth-child(3) { animation-delay: 0.15s; }
+                    .premium-services-menu li:nth-child(4) { animation-delay: 0.2s; }
+                    .premium-services-menu li:nth-child(5) { animation-delay: 0.25s; }
+                    .premium-services-menu li:nth-child(6) { animation-delay: 0.3s; }
+                    .premium-services-menu li:nth-child(7) { animation-delay: 0.35s; }
+                    .premium-services-menu li:nth-child(8) { animation-delay: 0.4s; }
+                    .premium-services-menu li:nth-child(9) { animation-delay: 0.45s; }
+                    .premium-services-menu li:nth-child(10) { animation-delay: 0.5s; }
+                    `}
+                </style>
             </>
         )
     }

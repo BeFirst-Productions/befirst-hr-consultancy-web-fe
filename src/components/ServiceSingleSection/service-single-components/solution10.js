@@ -1,16 +1,14 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
-const Solutions5 = () => {
+const Solutions10 = () => {
     return (
         <section className="solutions-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Why Choose Befirst Recruitment Assistance?</h2>
-                        {/* <p className="lead text-muted">
-We offer specialized consultancy services to ensure your business runs at its full potential:                            
-</p> */}
+                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Training & Development Services in Calicut, Kerala</h2>
+
                     </div>
                 </div>
 
@@ -22,9 +20,10 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
 
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Local Market Expertise</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Skill Enhancement Programs</h5>
                                     <p className="text-muted mb-0">
-                                        Deep understanding of Kerala’s job market and industry demands.
+                                        Focused training to improve employee skills, competencies, and efficiency for better performance and productivity.
+
                                     </p>
 
                                 </div>
@@ -36,9 +35,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Fast & Efficient Hiring </h5>
+                                    <h5 className="fw-bold mb-2 text-dark"> Leadership Development</h5>
                                     <p className="text-muted mb-0">
-                                        We connect you with qualified candidates in days, not months.
+                                        Programs to nurture employees into confident leaders with decision-making, problem-solving, and strategic thinking abilities.
                                     </p>
 
                                 </div>
@@ -50,9 +49,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Tailored Recruitment Solutions</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Career Growth & Mentorship</h5>
                                     <p className="text-muted mb-0">
-                                        From entry-level to C-suite roles.
+                                        Guided learning and mentorship to support career advancement and professional development within the organization.
                                     </p>
 
                                 </div>
@@ -64,9 +63,9 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Wide Industry Coverage</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Knowledge & Talent Improvement</h5>
                                     <p className="text-muted mb-0">
-                                        IT, manufacturing, healthcare, hospitality, finance, retail, and more.
+                                        Structured training to enhance knowledge, abilities, and talents, unlocking employees’ full potential.
                                     </p>
 
                                 </div>
@@ -78,9 +77,23 @@ We offer specialized consultancy services to ensure your business runs at its fu
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
                                 <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Quality Over Quantity</h5>
+                                    <h5 className="fw-bold mb-2 text-dark">Performance & Self-Improvement Training</h5>
                                     <p className="text-muted mb-0">
-                                        We ensure candidates meet your skill and cultural requirements.
+                                        Workshops and programs that encourage employees to focus on personal growth, goal achievement, and productivity.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6" >
+                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
+                            <div className="d-flex align-items-start">
+                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
+                                <div>
+                                    <h5 className="fw-bold mb-2 text-dark">Organizational Development Support</h5>
+                                    <p className="text-muted mb-0">
+                                        Training initiatives that align employee capabilities with organizational goals, driving innovation, efficiency, and sustainable growth.
                                     </p>
 
                                 </div>
@@ -108,4 +121,4 @@ We offer specialized consultancy services to ensure your business runs at its fu
     );
 };
 
-export default Solutions5;
+export default Solutions10;

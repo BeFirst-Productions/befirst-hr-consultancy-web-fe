@@ -6,9 +6,16 @@ import {
   Calculator, 
   UserSearch, 
   Shield,
-  UserPlus,
   UserCheck,
-  Settings
+  Settings,
+  ScrollText,
+  LineChart,
+  Layers,
+  Headset,
+  ChevronLeft,
+  ChevronRight,
+  ChevronsLeft,
+  ChevronsRight
 } from 'lucide-react';
 import { service as dummyServices } from '../data/dummyService';
 import { Link } from 'react-router-dom';
@@ -16,28 +23,40 @@ import { Link } from 'react-router-dom';
 // Map the dummy services to the format expected by the component
 const serviceData = dummyServices.map((service, index) => {
   // Assign appropriate icons based on service ID or title
-let iconComponent;
+  let iconComponent;
   switch(service.id) {
     case 1: // HR Operations & Administration
-      iconComponent = Settings;
+      iconComponent = Settings;  
       break;
     case 2: // HR Planning & Organization
-      iconComponent = ClipboardList;
+      iconComponent = ClipboardList;  
       break;
     case 3: // Learning & Development
-      iconComponent = GraduationCap;
+      iconComponent = GraduationCap;  
       break;
     case 4: // Payroll & Compensation
-      iconComponent = Calculator;
+      iconComponent = Calculator;  
       break;
-    case 5: // Recruitment Services
-      iconComponent = UserSearch;
+    case 5: // Recruitment Assistance
+      iconComponent = UserSearch;  
       break;
     case 6: // Quality Assurance & Compliance
-      iconComponent = Shield;
+      iconComponent = Shield;  
       break;
     case 7: // Talent Acquisition & Onboarding
-      iconComponent = UserCheck;
+      iconComponent = UserCheck; 
+      break;
+    case 8: // HR Policy & Procedure
+      iconComponent = ScrollText;  
+      break;
+    case 9: // Staff Appraisal System
+      iconComponent = LineChart;  
+      break;
+    case 10: // Training & Development
+      iconComponent = Layers; 
+      break;
+    case 11: // Customer Care Orientation
+      iconComponent = Headset;  
       break;
     default:
       iconComponent = Users;
@@ -83,42 +102,44 @@ const ServiceCard = ({ service, index }) => {
 
     return (
         <div className="col-lg-4 col-md-6 col-12 mb-4">
-      <Link
-        to={service.link}
-        style={{ textDecoration: 'none' }}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        <div className="service-card h-100" style={{ ...cardStyle, ...hoverStyle }}>
-          <div className="service-card-inner">
-            {/* Icon Section */}
-            <div className="service-icon-wrapper">
-              <div
-                className="service-icon"
-                style={{
-                  transform: isHovered ? 'scale(1.1)' : 'scale(1)',
-                  transition: 'all 0.3s ease'
-                }}
-              >
-                <IconComponent size={28} color="white" />
-              </div>
-              <div className="icon-pulse"></div>
-            </div>
+            <Link
+                to={service.link}
+                style={{ textDecoration: 'none' }}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+            >
+                <div className="service-card h-100" style={{ ...cardStyle, ...hoverStyle }}>
+                    <div className="service-card-inner">
+                        {/* Icon Section */}
+                        <div className="service-icon-wrapper">
+                            <div
+                                className="service-icon"
+                                style={{
+                                    transform: isHovered ? 'scale(1.1)' : 'scale(1)',
+                                    transition: 'all 0.3s ease'
+                                }}
+                            >
+                                <IconComponent size={28} color="white" />
+                            </div>
+                            <div className="icon-pulse"></div>
+                        </div>
 
-            {/* Content Section */}
-            <div className="service-content">
-              <h3 className="service-title">{service.title}</h3>
-              <p className="service-description">{service.des}</p>
-            </div>
-          </div>
+                        {/* Content Section */}
+                        <div className="service-content">
+                            <h3 className="service-title">{service.title}</h3>
+                            <p className="service-description">{service.des}</p>
+                        </div>
+                    </div>
+                </div>
+            </Link>
         </div>
-      </Link>
-    </div>
     );
 };
 
 const Services = () => {
     const [headerVisible, setHeaderVisible] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const servicesPerPage = 6;
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -127,6 +148,41 @@ const Services = () => {
 
         return () => clearTimeout(timer);
     }, []);
+
+    // Calculate total pages
+    const totalPages = Math.ceil(serviceData.length / servicesPerPage);
+    
+    // Get current services
+    const indexOfLastService = currentPage * servicesPerPage;
+    const indexOfFirstService = indexOfLastService - servicesPerPage;
+    const currentServices = serviceData.slice(indexOfFirstService, indexOfLastService);
+
+    // Change page
+    const paginate = (pageNumber) => {
+        if (pageNumber > 0 && pageNumber <= totalPages) {
+            setCurrentPage(pageNumber);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
+    // Generate page numbers for pagination
+    const getPageNumbers = () => {
+        const pageNumbers = [];
+        const maxVisiblePages = 5;
+        
+        let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+        
+        if (endPage - startPage + 1 < maxVisiblePages) {
+            startPage = Math.max(1, endPage - maxVisiblePages + 1);
+        }
+        
+        for (let i = startPage; i <= endPage; i++) {
+            pageNumbers.push(i);
+        }
+        
+        return pageNumbers;
+    };
 
     return (
         <>
@@ -241,7 +297,6 @@ const Services = () => {
                     justify-content: center;
                     position: relative;
                     z-index: 2;
-                 
                 }
 
                 .icon-pulse {
@@ -295,6 +350,83 @@ const Services = () => {
                     margin: 0;
                 }
 
+                /* Pagination Styles */
+                .pagination-container {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 50px;
+                    padding: 20px 0;
+                }
+
+                .pagination {
+                    display: flex;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    align-items: center;
+                    background: rgba(255, 255, 255, 0.9);
+                    backdrop-filter: blur(10px);
+                    border-radius: 50px;
+                    padding: 8px;
+                    box-shadow: 0 10px 30px rgba(51, 83, 239, 0.15);
+                    border: 1px solid rgba(51, 83, 239, 0.1);
+                }
+
+                .page-item {
+                    margin: 0 5px;
+                }
+
+                .page-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    color: #2c3e50;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                    border: 2px solid transparent;
+                    cursor: pointer;
+                }
+
+                .page-link:hover {
+                    background: rgba(51, 83, 239, 0.1);
+                    color: #3353EF;
+                }
+
+                .page-link.active {
+                    background: #3353EF;
+                    color: white;
+                    border-color: #3353EF;
+                    box-shadow: 0 5px 15px rgba(51, 83, 239, 0.3);
+                }
+
+                .page-link.disabled {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                }
+
+                .page-link.disabled:hover {
+                    background: transparent;
+                    color: #2c3e50;
+                }
+
+                .page-nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 15px;
+                }
+
+                .page-info {
+                    margin: 0 20px;
+                    font-size: 14px;
+                    color: #6c757d;
+                    font-weight: 500;
+                }
+
                 /* Responsive Design */
                 @media (max-width: 768px) {
                     .wpo-service-section {
@@ -323,6 +455,23 @@ const Services = () => {
                         width: 70px;
                         height: 70px;
                     }
+
+                    .pagination {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        padding: 15px;
+                    }
+
+                    .page-item {
+                        margin: 5px;
+                    }
+
+                    .page-info {
+                        margin: 10px 0;
+                        order: 3;
+                        width: 100%;
+                        text-align: center;
+                    }
                 }
 
                 @media (max-width: 576px) {
@@ -348,6 +497,16 @@ const Services = () => {
                     .service-description {
                         font-size: 14px;
                     }
+
+                    .page-link {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 14px;
+                    }
+
+                    .page-nav {
+                        padding: 0 10px;
+                    }
                 }
             `}</style>
 
@@ -362,7 +521,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {serviceData.map((service, index) => (
+                        {currentServices.map((service, index) => (
                             <ServiceCard 
                                 key={service.id} 
                                 service={service} 
@@ -370,6 +529,62 @@ const Services = () => {
                             />
                         ))}
                     </div>
+
+                    {/* Pagination Component */}
+                    {totalPages > 1 && (
+                        <div className="pagination-container">
+                            <div className="pagination">
+                                <div className="page-item">
+                                    <div 
+                                        className={`page-link ${currentPage === 1 ? 'disabled' : ''}`}
+                                        onClick={() => paginate(1)}
+                                    >
+                                        <ChevronsLeft size={18} />
+                                    </div>
+                                </div>
+                                <div className="page-item">
+                                    <div 
+                                        className={`page-link ${currentPage === 1 ? 'disabled' : ''}`}
+                                        onClick={() => paginate(currentPage - 1)}
+                                    >
+                                        <ChevronLeft size={18} />
+                                    </div>
+                                </div>
+                                
+                                {getPageNumbers().map(number => (
+                                    <div key={number} className="page-item">
+                                        <div 
+                                            className={`page-link ${currentPage === number ? 'active' : ''}`}
+                                            onClick={() => paginate(number)}
+                                        >
+                                            {number}
+                                        </div>
+                                    </div>
+                                ))}
+                                
+                                <div className="page-item">
+                                    <div 
+                                        className={`page-link ${currentPage === totalPages ? 'disabled' : ''}`}
+                                        onClick={() => paginate(currentPage + 1)}
+                                    >
+                                        <ChevronRight size={18} />
+                                    </div>
+                                </div>
+                                <div className="page-item">
+                                    <div 
+                                        className={`page-link ${currentPage === totalPages ? 'disabled' : ''}`}
+                                        onClick={() => paginate(totalPages)}
+                                    >
+                                        <ChevronsRight size={18} />
+                                    </div>
+                                </div>
+                                
+                                <div className="page-info">
+                                    Page {currentPage} of {totalPages}
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </section>
         </>

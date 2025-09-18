@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
 
-const ServiceFAQ5 = (props) => {
+const ServiceFAQ10 = (props) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
@@ -26,12 +26,12 @@ const ServiceFAQ5 = (props) => {
                                 id="panel1bh-header"
                             >
                                 <Typography>
-                                    Which industries does Befirst HR & Management Consultancy recruit for?
+                                    What are Training & Development Services in Calicut, Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We cover IT, manufacturing, healthcare, hospitality, finance, retail, education, and more across Kerala.
+                                    Training & Development Services in Calicut, Kerala are structured programs designed to enhance employee skills, knowledge, and talents for organizational growth.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -42,12 +42,12 @@ const ServiceFAQ5 = (props) => {
                                 id="panel2bh-header"
                             >
                                 <Typography>
-                                    How fast can you find candidates?
+                                    How can these services benefit my organization in Calicut, Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Depending on the role, we can connect you with shortlisted candidates within 48–72 hours.
+                                    By investing in Training & Development Services in Calicut, Kerala, organizations can improve employee performance, develop future leaders, and drive sustainable growth.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -58,13 +58,13 @@ const ServiceFAQ5 = (props) => {
                                 id="panel3bh-header"
                             >
                                 <Typography>
-                                    Do you recruit for senior management positions?
+                                    Who can avail Training & Development Services in Calicut, Kerala?
                                 </Typography>
 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We specialise in executive search for CEOs, COOs, CFOs, and other leadership roles.
+                                    Startups, corporates, SMEs, and entrepreneurs in Calicut, Kerala can utilize these services to enhance workforce capabilities and productivity.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -75,31 +75,16 @@ const ServiceFAQ5 = (props) => {
                                 id="panel4bh-header"
                             >
                                 <Typography>
-                                    Can you provide candidates from outside Kerala?
+                                    What types of training programs are offered in Calicut, Kerala?
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. While we focus on local recruitment in Kozhikode, Kochi, and Trivandrum, we also source talent from across India.
+                                    Our Training & Development Services in Calicut, Kerala include skill enhancement, leadership development, career growth, performance improvement, and organizational development programs.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    How do I start using your recruitment assistance?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Simply call us or fill out our online form with your hiring requirements, and our team will take it from there.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+
                     </div>
                 </div>
             </div>
@@ -108,4 +93,4 @@ const ServiceFAQ5 = (props) => {
     )
 }
 
-export default ServiceFAQ5;
+export default ServiceFAQ10;

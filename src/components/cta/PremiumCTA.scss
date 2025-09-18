@@ -74,8 +74,8 @@
       display: flex;
       align-items: center;
       gap: 4px;
-      background: rgba(255, 215, 0, 0.95);
-      color: #333;
+      background: #508CFA;
+      color: #ffffff;
       padding: 8px 12px; // Slightly larger padding
       border-radius: 12px;
       font-size: 11px; // Increased font size
@@ -87,7 +87,7 @@
       z-index: 2;
       
       svg {
-        color: #333;
+        color: #ffffff;
         width: 14px; // Slightly larger icon
         height: 14px;
       }
@@ -100,7 +100,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #3352EF 0%, #508CFA 100%);
+    background: linear-gradient(135deg, #508CFA 0%, #508CFA 100%);
     
     .gradient-overlay {
       position: absolute;
@@ -108,7 +108,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: linear-gradient(45deg, rgba(51, 82, 239, 0.95) 0%, #3453F0 100%);
+      background: linear-gradient(45deg, rgba(51, 82, 239, 0.95) 0%, #508CFA 100%);
     }
     
     .pattern-overlay {
@@ -240,19 +240,19 @@
         justify-content: center;
         gap: 8px;
         padding: 11px 18px; // Slightly reduced padding
-        background: linear-gradient(45deg, #FFD700, #FFA500);
-        color: #333;
+        background: #1A2653;
+        color: #ffffff;
         text-decoration: none;
         border-radius: 8px;
         font-weight: 600;
         font-size: 13px; // Slightly reduced
         transition: all 0.3s ease;
-        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+        box-shadow: 0 4px 12px #508CFA;
         
         &:hover {
           transform: translateY(-1px);
-          box-shadow: 0 6px 16px rgba(255, 215, 0, 0.4);
-          color: #333;
+          box-shadow: 0 6px 16px #508CFA;
+          color: #ffffff;
           text-decoration: none;
         }
         
@@ -272,17 +272,18 @@
         align-items: center;
         justify-content: center;
         padding: 7px 14px; // Reduced padding
-        background: transparent;
+        background: #1A2653;
         color: white;
         text-decoration: none;
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 6px;
-        font-size: 11px; // Slightly reduced
-        font-weight: 500;
+        font-size: 13px; // Slightly reduced
+        font-weight: 600;
         transition: all 0.3s ease;
         
         &:hover {
-          background: rgba(255, 255, 255, 0.1);
+          background: #1A2653;
+          opacity: 0.9;
           border-color: rgba(255, 255, 255, 0.5);
           color: white;
           text-decoration: none;
