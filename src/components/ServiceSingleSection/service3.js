@@ -37,12 +37,14 @@ const ServiceSingleSection3 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Learning & Development (L&D) Services in Kerala</h2>
+                                    <h1>Learning & Development (L&D) Services in Kerala</h1>
                                     <p>
-                                        In today’s fast-changing business environment, success depends on how well your employees and leaders are trained to adapt, innovate, and perform. At <strong> Befirst HR & Management Consultancy, </strong>  we specialize in <strong> Learning & Development (L&D) solutions </strong>  that empower businesses in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong> to build skilled, confident, and future-ready teams.
+Investing in <strong> Learning & Development (L&D) Services in Kerala </strong> is one of the most effective ways for businesses to 
+enhance workforce skills, boost employee engagement, and ensure long-term growth. At <strong> Befirst HR & Management Consultancy, </strong> we provide customized training and development 
+programs for companies in <strong> Calicut, Kochi, Trivandrum, and across Kerala. </strong>
                                     </p>
                                     <p>
-                                        Whether you’re a <strong> startup building a strong workforce </strong>  or an <strong> established enterprise nurturing future leaders, </strong>  our tailored training programs improve productivity, leadership capabilities, and overall business performance.
+From employee skill enhancement to leadership training, our L&D services are designed to align with your business goals, build strong teams, and create future-ready leaders
                                     </p>
                                 </div>
 

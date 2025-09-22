@@ -1,12 +1,12 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
 
-const WhyChoose7 = () => {
+const WhyChoose5 = () => {
   const reasons = [
-    "40+ years of HR consultancy expertise in Kerala and across India.",
-    " Customized recruitment solutions designed for your industry and workforce needs.",
-    "Strong network across Kozhikode, Kochi, Trivandrum, and other key business hubs.",
-    " Proven onboarding solutions that reduce attrition and boost employee engagement.",
+    "40+ years of experience in recruitment and HR consultancy.",
+    "Wide network of candidates across multiple industries in Kerala.",
+    "Tailored staffing solutions designed to fit your business requirements.",
+    "Trusted by startups, SMEs, and corporates for manpower services.",
   ];
 
   return (
@@ -16,7 +16,7 @@ const WhyChoose7 = () => {
         <div className="row mb-5">
           <div className="col-lg-8 mx-auto text-center">
             <h2 className="display-6 fw-bold mb-3 text-dark">
-              Why Choose Befirst HR for Talent Acquisition Services in Kerala?
+              Why Choose Befirst HR Consultancy for Recruitment Services?
             </h2>
             {/* <p className="lead text-muted">
                             Partnering with us ensures you gain not just HR support, but a strategic edge in driving business growth.
@@ -72,4 +72,4 @@ const WhyChoose7 = () => {
   );
 };
 
-export default WhyChoose7;
+export default WhyChoose5;

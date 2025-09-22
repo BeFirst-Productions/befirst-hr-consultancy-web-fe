@@ -142,7 +142,7 @@ export const service = [
         sIcon: 'fi flaticon-business',
         Link: '/service/quality-assurance-&-compliance',
         title: 'Quality Assurance & Compliance',
-        des: 'Ensure sustainable growth through Quality Assurance & HR Compliance services in Kerala for all businesses.',
+        des: 'Custom HR workshops, HRMS software implementation, engagement frameworks, and annual HR retainers.',
 //         body: `Our training programs focus on improving soft skills,
 // workplace efficiency, and leadership development across all
 // levels. Sessions are available in English and Malayalam,

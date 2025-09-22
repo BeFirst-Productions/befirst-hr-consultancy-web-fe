@@ -10,11 +10,6 @@ import PremiumCTA from '../cta';
 import ctsImg from '../../images/blog/cta-img-3.jpg'
 
 
-
-
-
-
-
 const AllBlogSidebar = (props) => {
 
     const SubmitHandler = (e) =>{
@@ -73,7 +68,7 @@ const AllBlogSidebar = (props) => {
                                 <img src={blog1} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/why-choose-a-leading-hr-consultancy-in-calicut-kerala">How SMEs Can Build a Strong Employer Brand in Kerala</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/why-choose-a-leading-hr-consultancy-in-calicut-kerala">Why Choose a Leading HR Consultancy in Calicut, Kerala?</Link></h4>
                                 <span className="date">19 Jun 2021 </span>
                             </div>
                         </div>
@@ -82,7 +77,7 @@ const AllBlogSidebar = (props) => {
                                 <img src={blog2} alt="" />
                             </div>
                             <div className="details">
-                                <h4><Link onClick={ClickHandler} to="/blogs/recruitment-outsourcing-in-kerala">Why Outsourcing Recruitment Can Save You Time & Money – Benefits of Recruitment Outsourcing in Kerala</Link></h4>
+                                <h4><Link onClick={ClickHandler} to="/blogs/recruitment-outsourcing-in-kerala">Recruitment Outsourcing in Kerala: Why SMEs Should Consider It</Link></h4>
                                 <span className="date">22 May 2021 </span>
                             </div>
                         </div>

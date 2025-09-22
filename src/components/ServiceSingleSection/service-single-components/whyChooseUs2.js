@@ -3,10 +3,10 @@ import { CheckCircle } from 'lucide-react';
 
 const WhyChoose2 = () => {
     const reasons = [
-        "10+ years of HR expertise across multiple industries.",
-        "Customized HR solutions for startups, SMEs, and enterprises.",
-        "Compliance with Kerala’s labour laws and global HR standards.",
-        "Support for C-suite leaders, entrepreneurs, and managers."
+        "40+ years of HR expertise across industries in Kerala and beyond.",
+        "End-to-end workforce planning solutions for startups, SMEs, and corporates.",
+        "Customized organizational frameworks aligned with business strategies.",
+        "Local knowledge of HR, labour laws, and compliance in Kerala."
     ];
 
     return (
@@ -16,7 +16,7 @@ const WhyChoose2 = () => {
                 <div className="row mb-5">
                     <div className="col-lg-8 mx-auto text-center">
                         <h2 className="display-6 fw-bold mb-3 text-dark">
-                         Why Choose Befirst HR for HR Planning in Kerala?
+                        Why Choose Befirst HR for HR Planning Services in Kerala?
                         </h2>
                         {/* <p className="lead text-muted">
                             Partnering with us ensures you gain not just HR support, but a strategic edge in driving business growth.

@@ -34,18 +34,14 @@ const ServiceSingleSection1 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>HR Operations & Administration Services in Kerala</h2>
+                                    <h1>HR Operations & Administration Services in Kerala</h1>
                                     <p>
-                                        Efficient HR operations are the backbone of a successful business.
-                                        Without streamlined HR processes, companies face compliance risks,
-                                        employee dissatisfaction, and reduced productivity. At <strong> Befirst HR & Management Consultancy, </strong>
-                                        we help organizations in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong>
-                                         build robust HR operations that save time,
-                                        reduce errors, and ensure smooth employee management.
+                                Efficient <strong> HR Operations & Administration Services in Kerala </strong> are the backbone of a successful business. Without streamlined HR processes,
+                                 companies risk compliance issues, employee dissatisfaction, and productivity loss. At <strong> Befirst HR & Management Consultancy, </strong> we support organizations 
+                                 in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala </strong> with trusted HR solutions that save time, reduce errors, and ensure smooth employee management.
                                     </p>
                                     <p>
-                                        Whether you are an <strong> entrepreneur, SME, or a corporate leader, </strong>
-                                        our HR operations support will simplify your day-to-day processes so you can focus on growing your business.
+                                Whether you are an entrepreneur, SME, or corporate leader, our services simplify your day-to-day HR functions, allowing you to focus on growing your business.
                                     </p>
                                 </div>
                             </div>

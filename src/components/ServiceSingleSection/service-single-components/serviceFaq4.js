@@ -1,96 +1,111 @@
-import React, { useState } from 'react'
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-
+import React, { useState } from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
 
 const ServiceFAQ4 = (props) => {
-    const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
-    const handleChange = (panel) => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
 
-
-    return (
-        <div className="wpo-benefits-section">
-            <h2>FAQs</h2>
-            <div className="row">
-                <div className="col-lg-12 col-12">
-                    <div className="wpo-benefits-item">
-                        <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel1bh-content"
-                                id="panel1bh-header"
-                            >
-                                <Typography>
-                                    Why should SMEs in Kerala outsource payroll management?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Outsourcing payroll saves time, reduces errors, ensures compliance, and allows SMEs to focus on growing their business instead of handling administrative tasks.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel2bh-content"
-                                id="panel2bh-header"
-                            >
-                                <Typography>
-                                    Can Befirst HR handle payroll for startups with small teams?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Yes. We provide scalable payroll solutions for startups, SMEs, and large organizations in Kerala.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel3bh-content"
-                                id="panel3bh-header"
-                            >
-                                <Typography>
-                                    Do you manage compliance related to gratuity and final settlements?
-                                </Typography>
-
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Absolutely. We ensure all final settlements, gratuity, and exit-related payments follow Kerala labour law requirements.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                            <AccordionSummary
-                                expandIcon={""}
-                                aria-controls="panel4bh-content"
-                                id="panel4bh-header"
-                            >
-                                <Typography>
-                                    Is your payroll system secure and reliable?
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Yes. We use secure systems that ensure accuracy, confidentiality, and timely payroll processing.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="wpo-benefits-section">
+      <h2>FAQs</h2>
+      <div className="row">
+        <div className="col-lg-12 col-12">
+          <div className="wpo-benefits-item">
+            <Accordion
+              expanded={expanded === "panel1"}
+              onChange={handleChange("panel1")}
+            >
+              <AccordionSummary
+                expandIcon={""}
+                aria-controls="panel1bh-content"
+                id="panel1bh-header"
+              >
+                <Typography>
+                  What are Payroll & Compensation Services in Kerala?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  These services include salary processing, payroll outsourcing,
+                  taxation, and compensation management to ensure smooth
+                  employee payments and compliance.
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion
+              expanded={expanded === "panel2"}
+              onChange={handleChange("panel2")}
+            >
+              <AccordionSummary
+                expandIcon={""}
+                aria-controls="panel2bh-content"
+                id="panel2bh-header"
+              >
+                <Typography>
+                  How does payroll outsourcing in Kerala benefit businesses?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  Payroll outsourcing reduces administrative workload, ensures
+                  accuracy, and keeps businesses compliant with local labour
+                  laws.
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion
+              expanded={expanded === "panel3"}
+              onChange={handleChange("panel3")}
+            >
+              <AccordionSummary
+                expandIcon={""}
+                aria-controls="panel3bh-content"
+                id="panel3bh-header"
+              >
+                <Typography>
+                  Do you provide employee payroll services across Kerala?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  Yes. Befirst HR offers payroll services in Kozhikode, Kochi,
+                  Trivandrum, and across Kerala for organizations of all sizes.
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion
+              expanded={expanded === "panel4"}
+              onChange={handleChange("panel4")}
+            >
+              <AccordionSummary
+                expandIcon={""}
+                aria-controls="panel4bh-content"
+                id="panel4bh-header"
+              >
+                <Typography>
+                  Why choose Befirst HR Solutions for salary processing services
+                  in Kerala?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  We combine decades of HR experience with modern payroll
+                  systems to deliver efficient, accurate, and compliant payroll
+                  services.
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          </div>
         </div>
-
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default ServiceFAQ4;

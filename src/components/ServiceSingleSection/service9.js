@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceSingleSidebar from './service-single-components/sidebar'
-import ctsImg from "../../images/services/service-cta-7.jpg"
+import ctsImg from "../../images/services/service-cta-9.jpg"
 import Solutions9 from './service-single-components/solution9'
 import WhyChoose9 from './service-single-components/whyChooseUs9'
 import ServiceFAQ9 from './service-single-components/serviceFaq9'

@@ -32,14 +32,16 @@ const ServiceSingleSection4 = () => {
                             <div className="wpo-service-single-content">
                                 {/* <img src={service.images[0]} alt="" /> */}
                                 <div className="wpo-service-single-content-des">
-                                    <h2>Payroll & Compensation Services in Kerala </h2>
+                                    <h1>Payroll & Compensation Services in Kerala </h1>
                                     <p>
-                                        Managing payroll and employee compensation can be complex, time-consuming, and risky if not handled correctly. Errors in salary processing,
-                                        tax compliance, or benefits management can lead to dissatisfaction and penalties. At <strong> Befirst HR & Management Consultancy, </strong>  we provide
-                                        <strong> Payroll & Compensation solutions </strong>  that ensure accuracy, compliance, and employee satisfaction for businesses in <strong> Kozhikode, Kochi, Trivandrum, and across Kerala.</strong>
+Managing payroll and employee compensation is one of the most critical aspects of HR. 
+Errors in salary processing, taxation, or compliance can affect employee trust and create legal challenges.
+ That’s why many businesses choose <strong> professional Payroll & Compensation Services in Kerala </strong>  to simplify and secure
+  this vital function.
                                     </p>
                                     <p>
-                                        Whether you are a <strong> startup, SME, or corporate enterprise, </strong> our payroll experts ensure your employees are paid correctly and on time, every time.
+At <strong> Befirst HR Solutions, </strong> we provide reliable <strong> payroll outsourcing in Kerala </strong> for businesses in Kozhikode, Kochi, Trivandrum, and across the state. 
+Our services ensure accurate salary disbursement, compliance with labour laws, and complete confidentiality, giving you more time to focus on core business growth.
                                     </p>
 
 

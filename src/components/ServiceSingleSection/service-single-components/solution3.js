@@ -1,94 +1,121 @@
-import React from 'react';
-import { CheckCircle } from 'lucide-react';
+import React from "react";
+import { CheckCircle } from "lucide-react";
 
 const Solutions3 = ({ pointTitle = "Our Solutions", points = [] }) => {
-    return (
-        <section className="solutions-section py-5">
-            <div className="container">
-                <div className="row mb-5">
-                    <div className="col-lg-8 mx-auto text-center">
-                        <h2 className="display-6 fw-bold mb-3 text-dark">Our Learning & Development Services</h2>
-                        {/* <p className="lead text-muted">
+  return (
+    <section className="solutions-section py-5">
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col-lg-8 mx-auto text-center">
+            <h2 className="display-6 fw-bold mb-3 text-dark">
+              Our Learning & Development (L&D) Services
+            </h2>
+            {/* <p className="lead text-muted">
 We offer specialized consultancy services to ensure your business runs at its full potential:                            
 </p> */}
-                    </div>
+          </div>
+        </div>
+
+        <div className="row g-4">
+          {/* {points.map((point, index) => ( */}
+          <div className="col-lg-6 col-md-6">
+            <div className="solution-card card h-100 border-0 shadow-sm p-4">
+              <div className="d-flex align-items-start">
+                <CheckCircle
+                  className="text-primary me-3 flex-shrink-0"
+                  size={28}
+                />
+
+                <div>
+                  <h5 className="fw-bold mb-2 text-dark">
+                    Employee Training & Skill Development
+                  </h5>
+                  <p className="text-muted mb-0">
+                    Tailored programs to improve job-specific skills,
+                    productivity, and overall efficiency.
+                  </p>
                 </div>
-
-                <div className="row g-4">
-                    {/* {points.map((point, index) => ( */}
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Employee & Leadership Training Programs</h5>
-                                    <p className="text-muted mb-0">
-                                        Comprehensive workshops to improve performance, leadership, and decision-making across all levels of your organization.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Soft Skills, Communication & Customer Care</h5>
-                                    <p className="text-muted mb-0">
-                                        Enhance interpersonal communication, problem-solving, and customer experience with customized soft skills training.
-
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Supervisory & Management Skills Training</h5>
-                                    <p className="text-muted mb-0">
-                                        Equip managers and supervisors with effective leadership, delegation, and team management strategies.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Hiring & Interview Skills Workshops</h5>
-                                    <p className="text-muted mb-0">
-                                        Train HR teams and managers on structured interview techniques, ensuring the right talent selection.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
-                        <div className="solution-card card h-100 border-0 shadow-sm p-4">
-                            <div className="d-flex align-items-start">
-                                <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
-                                <div>
-                                    <h5 className="fw-bold mb-2 text-dark">Orientation & Induction Programs</h5>
-                                    <p className="text-muted mb-0">
-                                        Smooth onboarding experiences for new hires with impactful orientation sessions aligned with company values.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6" >
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="solution-card card h-100 border-0 shadow-sm p-4">
+              <div className="d-flex align-items-start">
+                <CheckCircle
+                  className="text-primary me-3 flex-shrink-0"
+                  size={28}
+                />
+                <div>
+                  <h5 className="fw-bold mb-2 text-dark">
+                    Leadership & Management Training
+                  </h5>
+                  <p className="text-muted mb-0">
+                    Specialized training for managers and executives to develop
+                    leadership qualities, decision-making, and team management
+                    skills.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="solution-card card h-100 border-0 shadow-sm p-4">
+              <div className="d-flex align-items-start">
+                <CheckCircle
+                  className="text-primary me-3 flex-shrink-0"
+                  size={28}
+                />
+                <div>
+                  <h5 className="fw-bold mb-2 text-dark">
+                    Soft Skills & Behavioral Training
+                  </h5>
+                  <p className="text-muted mb-0">
+                    Programs covering communication, teamwork, adaptability, and
+                    problem-solving for professional growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="solution-card card h-100 border-0 shadow-sm p-4">
+              <div className="d-flex align-items-start">
+                <CheckCircle
+                  className="text-primary me-3 flex-shrink-0"
+                  size={28}
+                />
+                <div>
+                  <h5 className="fw-bold mb-2 text-dark">
+                    Customized Corporate Training
+                  </h5>
+                  <p className="text-muted mb-0">
+                    Industry-specific training modules designed to meet
+                    organizational requirements and objectives.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="solution-card card h-100 border-0 shadow-sm p-4">
+              <div className="d-flex align-items-start">
+                <CheckCircle
+                  className="text-primary me-3 flex-shrink-0"
+                  size={28}
+                />
+                <div>
+                  <h5 className="fw-bold mb-2 text-dark">
+                    Continuous Learning Frameworks
+                  </h5>
+                  <p className="text-muted mb-0">
+                    Ongoing development strategies to keep employees updated
+                    with modern practices and technologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="col-lg-6 col-md-6" >
                         <div className="solution-card card h-100 border-0 shadow-sm p-4">
                             <div className="d-flex align-items-start">
                                 <CheckCircle className="text-primary me-3 flex-shrink-0" size={28} />
@@ -115,26 +142,25 @@ We offer specialized consultancy services to ensure your business runs at its fu
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+        </div>
+      </div>
 
-                </div>
-            </div>
-
-            <style jsx>{`
-                .solutions-section {
-                    background-color: #fafbfc;
-                }
-                .solution-card {
-                    transition: all 0.3s ease;
-                    background-color: #ffffff;
-                }
-                .solution-card:hover {
-                    transform: translateY(-3px);
-                    box-shadow: 0 8px 25px rgba(0,0,0,0.08) !important;
-                }
-            `}</style>
-        </section>
-    );
+      <style jsx>{`
+        .solutions-section {
+          background-color: #fafbfc;
+        }
+        .solution-card {
+          transition: all 0.3s ease;
+          background-color: #ffffff;
+        }
+        .solution-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+        }
+      `}</style>
+    </section>
+  );
 };
 
 export default Solutions3;
